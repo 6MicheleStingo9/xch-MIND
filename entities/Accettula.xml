@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389226">
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389226"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <dc:description>La struttura fu scoperta da Angelo Mosso nel 1909 al di sotto di un tumulo di terriccio e pietre, immerso all’interno della pineta. La tipologia architettonica a cella unica si riallaccia alla tradizione dolmenica che caratterizza i dolmen del Leccese, differenziandoli da quelli della Puglia centrale, caratterizzati da un corridoio d’ingresso. Il dolmen in oggetto, infatti, conserva un lastrone di copertura di forma quadrata, che poggia in parte al suolo e in parte su tre lastroni interrati. Indagini di scavo condotte in quest’area negli anni ottanta del secolo scorso hanno permesso di rilevare la presenza di resti antropici e di recipienti vascolari, tra cui una tazza e un bicchiere a pareti convesse</dc:description>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389226-geometry-point"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389226-bibliography-2"/>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <arco:uniqueIdentifier>1600389226</arco:uniqueIdentifier>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389226"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389226-current"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389226-legal-situation-dato-non-disponibile"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389226"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+    <a-cd:historicalInformation>La struttura ebbe, dunque, probabilmente, una funzione funeraria e di carattere cerimoniale tra la fine del III e gli inizi del II millennio a.C. ma non si esclude che fu costruito, come altri dolmen, anche per essere visibile nel paesaggio, a memoria dei defunti e dei vivi, della comunità, cioè che con uno sforzo collettivo, costruì un monumento tangibile e senza tempo</a-cd:historicalInformation>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16295179_Dolmen%20Accettulla%20Massafra.jpg"/>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <rdfs:label xml:lang="en">dolmen, Dolmen dell’Accettula (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, Dolmen dell’Accettula (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo)</rdfs:label>
+    <rdfs:comment>Dolmen dell’Accettula</rdfs:comment>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389226"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389226-bibliography-1"/>
+    <dc:subject>Dolmen dell’Accettula</dc:subject>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/ontology/location/UrbanContext"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16295179_Dolmen%20Accettulla%20Massafra.jpg"/>
+    <dc:type>dolmen</dc:type>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389226-geometry-1"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <arco:catalogueNumber>00389226</arco:catalogueNumber>
+    <dc:identifier>1600389226</dc:identifier>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389226-documentation-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389226-heritage-protection-agency"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1600389226-1"/>
+    <core:description>La struttura fu scoperta da Angelo Mosso nel 1909 al di sotto di un tumulo di terriccio e pietre, immerso all’interno della pineta. La tipologia architettonica a cella unica si riallaccia alla tradizione dolmenica che caratterizza i dolmen del Leccese, differenziandoli da quelli della Puglia centrale, caratterizzati da un corridoio d’ingresso. Il dolmen in oggetto, infatti, conserva un lastrone di copertura di forma quadrata, che poggia in parte al suolo e in parte su tre lastroni interrati. Indagini di scavo condotte in quest’area negli anni ottanta del secolo scorso hanno permesso di rilevare la presenza di resti antropici e di recipienti vascolari, tra cui una tazza e un bicchiere a pareti convesse</core:description>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389226-dolmen-dell%E2%80%99accettula"/>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389226-bibliography-3"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389226"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389226-cataloguing-agency"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389226-1"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389226"/>
+    <dc:title>dolmen</dc:title>
+  </rdf:Description>
+</rdf:RDF>

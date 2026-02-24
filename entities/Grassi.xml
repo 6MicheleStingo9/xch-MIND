@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389227">
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389227-bibliography-2"/>
+    <dc:subject>Dolmen Grassi</dc:subject>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389227-bibliography-5"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389227-bibliography-6"/>
+    <rdfs:label xml:lang="en">dolmen, Dolmen Grassi (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo antico)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, Dolmen Grassi (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo antico)</rdfs:label>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/2732ae24a43ad235787cd4e1b8aad7ec"/>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <dc:type>dolmen</dc:type>
+    <core:description>Il Dolmen Grassi è costituito da due dolmen contrapposti disposti a distanza di 1,40 metri l’uno dall’altro. Il dolmen dell’area nord, semidistrutto, presenta un lastrone di copertura crollato all’interno della cella con conseguente rotazione delle pietre di sostegno dal loro orientamento originario. Il megalite a sud, con lastra di copertura integra e poggia su un piedritto monolitico a E e su pietre sovrapposte sul lato opposto</core:description>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389227"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389227-legal-situation-dato-non-disponibile"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389227-geometry-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389227-heritage-protection-agency"/>
+    <a-cd:historicalInformation>I dolmen ebbero una funzione funeraria e/o rituale ma in assenza di reperti e resti umani, come nel caso dei dolmen salentini, tranne poche eccezioni, si è ipotizzato che essi potrebbero aver avuto la funzione di luoghi di osservazione astronomica, di memoria degli antenati, di monumenti costruiti per celebrare i vivi, le comunità cioè che li avevano eretti. La sua costruzione risale, probabilmente, alla media età del Bronzo, intorno alla prima metà del II millennio a.C., sulla base delle analogie con i dolmen maltesi dalle dimensioni e dalla tipologia (a camera unica) simile a quelli salentini</a-cd:historicalInformation>
+    <arco:catalogueNumber>00389227</arco:catalogueNumber>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/resource/TypeOfContext/contesto-rurale"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389227"/>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <dc:identifier>1600389227</dc:identifier>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16300335_S216_Pir_732_01.jpg"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389227-documentation-1"/>
+    <dc:description>Il Dolmen Grassi è costituito da due dolmen contrapposti disposti a distanza di 1,40 metri l’uno dall’altro. Il dolmen dell’area nord, semidistrutto, presenta un lastrone di copertura crollato all’interno della cella con conseguente rotazione delle pietre di sostegno dal loro orientamento originario. Il megalite a sud, con lastra di copertura integra e poggia su un piedritto monolitico a E e su pietre sovrapposte sul lato opposto</dc:description>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389227"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389227-bibliography-3"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16300335_S216_Pir_732_01.jpg"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389227-bibliography-4"/>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/2732ae24a43ad235787cd4e1b8aad7ec"/>
+    <a-cd:hasProtectiveMeasure rdf:resource="https://w3id.org/arco/resource/ProtectiveMeasure/1600389227-protective-measure-1"/>
+    <dc:title>dolmen</dc:title>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389227-1"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389227"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389227-current"/>
+    <rdfs:comment>Dolmen Grassi</rdfs:comment>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389227-dolmen-grassi"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389227"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389227-geometry-point"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389227"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389227-bibliography-1"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1600389227-1"/>
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389227-cataloguing-agency"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <arco:uniqueIdentifier>1600389227</arco:uniqueIdentifier>
+  </rdf:Description>
+</rdf:RDF>

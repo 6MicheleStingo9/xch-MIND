@@ -1,0 +1,1062 @@
+{
+  "8184a47905d7de92a48478b2d9cb2383": {
+    "geometries": {
+      "https://w3id.org/arco/resource/Geometry/1600027060-geometry-point": {
+        "latitude": 41.096268,
+        "longitude": 16.36765
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389188-geometry-point": {
+        "latitude": 40.577049,
+        "longitude": 17.121932
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389837-geometry-point": {
+        "latitude": 40.106976,
+        "longitude": 18.392971
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389220-geometry-point": {
+        "latitude": 39.838175,
+        "longitude": 18.247304
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389223-geometry-point": {
+        "latitude": 40.150937,
+        "longitude": 18.267309
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389225-geometry-point": {
+        "latitude": 39.863285,
+        "longitude": 18.300135
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389226-geometry-point": {
+        "latitude": 40.562705,
+        "longitude": 17.208769
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389228-geometry-point": {
+        "latitude": 40.130993,
+        "longitude": 18.283643
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389232-geometry-point": {
+        "latitude": 40.78905,
+        "longitude": 17.487606
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389233-geometry-point": {
+        "latitude": 40.121922,
+        "longitude": 18.409557
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389235-geometry-point": {
+        "latitude": 40.268575,
+        "longitude": 18.321516
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389236-geometry-point": {
+        "latitude": 40.095491,
+        "longitude": 18.432797
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389238-geometry-point": {
+        "latitude": 39.966208,
+        "longitude": 18.063129
+      },
+      "https://w3id.org/arco/resource/Geometry/2000241278-geometry-point-1": {
+        "latitude": 39.43543,
+        "longitude": 8.59765
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389219-geometry-1": {
+        "latitude": 41.184029504,
+        "longitude": 16.490071608
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389221-geometry-1": {
+        "latitude": 40.110993218,
+        "longitude": 18.28860043
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389222-geometry-1": {
+        "latitude": 40.15090293,
+        "longitude": 18.267279756
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389224-geometry-1": {
+        "latitude": 40.114408727,
+        "longitude": 18.423044842
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389227-geometry-1": {
+        "latitude": 40.113051653,
+        "longitude": 18.418827605
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389229-geometry-1": {
+        "latitude": 41.194232488,
+        "longitude": 16.487516928
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389230-geometry-1": {
+        "latitude": 41.659326873,
+        "longitude": 15.6026458
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389231-geometry-1": {
+        "latitude": 41.152473025,
+        "longitude": 16.636344524
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389234-geometry-1": {
+        "latitude": 40.258664969,
+        "longitude": 18.309386257
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389237-geometry-1": {
+        "latitude": 40.004592973,
+        "longitude": 18.351290526
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389240-geometry-1": {
+        "latitude": 41.692961857,
+        "longitude": 15.909614099
+      }
+    },
+    "addresses": {
+      "https://w3id.org/arco/resource/Address/901113b117e72824af0c91f4ea3338cc": {
+        "address_full": "Italia, Puglia, BA, Bisceglie",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/ba32c72353efd79d3ec931e741fc4cf9": {
+        "address_full": "ITALIA, Puglia, BT, Bisceglie, Via Stradelle, 76011",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BT"
+      },
+      "https://w3id.org/arco/resource/Address/cf438e54ffa314ef42dc1dd82e3c56ca": {
+        "address_full": "ITALIA, Puglia, BT, Bisceglie, SP86, 76011 Bisceglie BT",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BT"
+      },
+      "https://w3id.org/arco/resource/Address/d608e4411a9ff89ec8f5db1a738ee5e4": {
+        "address_full": "ITALIA, Puglia, BA, Corato",
+        "municipality": "Corato",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/8b40f9729c842e9a97caa4b29b7ff0c4": {
+        "address_full": "ITALIA, Puglia, LE, Corigliano d'Otranto, via Vecchia Maglie, 73022",
+        "municipality": "Corigliano D'otranto",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/42037d37d4adbcc62704833b46499a39": {
+        "address_full": "ITALIA, Puglia, BR, Fasano, 72017 Montalbano BR",
+        "municipality": "Fasano",
+        "region_name": "Puglia",
+        "province": "BR"
+      },
+      "https://w3id.org/arco/resource/Address/b190660e4b1f8b80c5509b606d04de5b": {
+        "address_full": "ITALIA, Sardegna, VS, Gesturi, GESTURI, Giara di Gesturi",
+        "municipality": "Gesturi",
+        "region_name": "Sardegna",
+        "province": "VS"
+      },
+      "https://w3id.org/arco/resource/Address/8bb56777c67d0c54d79fa5630c18d095": {
+        "address_full": "ITALIA, Puglia, BA, Giovinazzo, SP107, 70054",
+        "municipality": "Giovinazzo",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/92ae9d4935c3c6dff297fa971343fc76": {
+        "address_full": "ITALIA, Puglia, LE, Giuggianello, 73030 Giuggianello LE",
+        "municipality": "Giuggianello",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/d021a7e96a848523c35138fe1f470d64": {
+        "address_full": "ITALIA, Puglia, LE, Giuggianello, Unnamed Rd,, 73030 Giuggianello LE",
+        "municipality": "Giuggianello",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/2732ae24a43ad235787cd4e1b8aad7ec": {
+        "address_full": "ITALIA, Puglia, LE, Giurdignano, 73020 Giurdignano LE",
+        "municipality": "Giurdignano",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/595c88a33771f250de9f30a3e3009f5d": {
+        "address_full": "ITALIA, Puglia, LE, Maglie, S. C. Luci, 73024, Maglie (LE)",
+        "municipality": "Maglie",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/b89eb09a741dfa70f0cc3c694ab3f871": {
+        "address_full": "ITALIA, Puglia, LE, Maglie, Via Pagliarella",
+        "municipality": "Maglie",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/2c2263afc51201e6f473e590afa741d3": {
+        "address_full": "ITALIA, Puglia, TA, Massafra, Viale Magna Grecia, Massafra (TA)",
+        "municipality": "Massafra",
+        "region_name": "Puglia",
+        "province": "TA"
+      },
+      "https://w3id.org/arco/resource/Address/c84c1d2481535b0f6d20757bf50f287b": {
+        "address_full": "ITALIA, Puglia, LE, Melendugno, 73026 Melendugno LE",
+        "municipality": "Melendugno",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/9edf635d1c2c31f26d75e3ffe3b3f84d": {
+        "address_full": "ITALIA, Puglia, LE, Minervino di Lecce, SP56, 73027",
+        "municipality": "Minervino Di Lecce",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/8141400e431c25b5d7a0b45d6506b326": {
+        "address_full": "ITALIA, Puglia, FG, Monte Sant'Angelo, Via Santa Maria di Pulsano, 71037",
+        "municipality": "MONTE SANT'ANGELO",
+        "region_name": "Puglia",
+        "province": "FG"
+      },
+      "https://w3id.org/arco/resource/Address/d4c02525e6d3235d80789424ed1e8eaf": {
+        "address_full": "ITALIA, Liguria, IM, Perinaldo",
+        "municipality": "Perinaldo",
+        "region_name": "Liguria",
+        "province": "IM"
+      },
+      "https://w3id.org/arco/resource/Address/53684616fc956929febcf5cc3d6413f3": {
+        "address_full": "ITALIA, Puglia, LE, Racale, Contrada Ospina, Racale, Strada Provinciale 222, 73055",
+        "municipality": "Racale",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/612171ef2bb81c94c745fc4cc71a0875": {
+        "address_full": "ITALIA, Puglia, FG, Rignano Garganico, S.P. 22, 71010",
+        "municipality": "Rignano Garganico",
+        "region_name": "Puglia",
+        "province": "FG"
+      },
+      "https://w3id.org/arco/resource/Address/95a809b88ed1978ffb780a3b68f6d3f7": {
+        "address_full": "ITALIA, Puglia, LE, Salve, localizzazione sconosciuta",
+        "municipality": "Salve",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/fa117396f10eb5851e5674679063d76b": {
+        "address_full": "ITALIA, Puglia, LE, Salve, litoranea Leuca, 73050, 73050 Salve LE",
+        "municipality": "Salve",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/54055d3234edebf4ad3d588a2420cee3": {
+        "address_full": "ITALIA, Puglia, LE, Spongano, Strada Vicinale Pastine, Scorrano, 73038",
+        "municipality": "Spongano",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac": {
+        "address_full": "ITALIA, Puglia, TA, Statte, strada Vicinale Accetta Piccola, 74010 Statte TA",
+        "municipality": "Statte",
+        "region_name": "Puglia",
+        "province": "TA"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/31ddada47e1364f51aed778e3222d54e": {
+        "address_full": "NU, Birori, Sardegna",
+        "municipality": "Birori",
+        "region_name": "Birori"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/19e7a41dfadffb49596ef7418431b668": {
+        "address_full": "NU, Borore, Sardegna",
+        "municipality": "Borore",
+        "region_name": "Borore"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/a1b8c2d360e6f29f9df4302f3984fc82": {
+        "address_full": "OT, Buddus\u00f2, Sardegna",
+        "municipality": "Buddus\u00f2",
+        "region_name": "Buddus\u00f2"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/c61fb5f76e5fa12e258c789b4612b1a6": {
+        "address_full": "NU, Dorgali, Sardegna",
+        "municipality": "Dorgali",
+        "region_name": "Dorgali"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/c5f5e886f27e68f0b2da2364a223c234": {
+        "address_full": "NU, Dualchi, Sardegna",
+        "municipality": "Dualchi",
+        "region_name": "Dualchi"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/77b1edc2273a67646de0a0d1f74234b2": {
+        "address_full": "CI, Iglesias, Sardegna",
+        "municipality": "Iglesias",
+        "region_name": "Iglesias"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/37cab859393680839efbd48c94f0e9a3": {
+        "address_full": "OT, Luras, Sardegna",
+        "municipality": "Luras",
+        "region_name": "Luras"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/0824867f5ef9153b4313a5832a78a314": {
+        "address_full": "NU, Macomer, Sardegna",
+        "municipality": "Macomer",
+        "region_name": "Macomer"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/15076e565a19fbd451f3d4cec8e3ad16": {
+        "address_full": "SS, Ozieri, Sardegna",
+        "municipality": "Ozieri",
+        "region_name": "Ozieri"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/9117e402d47abd18e9de55c41ef69fbd": {
+        "address_full": "NU, Sindia, Sardegna",
+        "municipality": "Sindia",
+        "region_name": "Sindia"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/03bcf5ea0b0494397a064b67e657eea2": {
+        "address_full": "OR, Suni, Sardegna",
+        "municipality": "Suni",
+        "region_name": "Suni"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/eeb3e77698a492e3f020d9efa3ce8383": {
+        "address_full": "SS, Torralba, Sardegna",
+        "municipality": "Torralba",
+        "region_name": "Torralba"
+      }
+    },
+    "datings": {
+      "https://w3id.org/arco/resource/Dating/1600027060-1": {
+        "dating_label": "Dating 1 of cultural property 1600027060"
+      },
+      "https://w3id.org/arco/resource/Dating/1600027066-1": {
+        "dating_label": "Dating 1 of cultural property 1600027066"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053211-1": {
+        "dating_label": "Dating 1 of cultural property 2000053211"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053213-1": {
+        "dating_label": "Dating 1 of cultural property 2000053213"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053224-1": {
+        "dating_label": "Dating 1 of cultural property 2000053224"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053230-1": {
+        "dating_label": "Dating 1 of cultural property 2000053230"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237908-1": {
+        "dating_label": "Dating 1 of cultural property 2000237908"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237909-1": {
+        "dating_label": "Dating 1 of cultural property 2000237909"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237910-1": {
+        "dating_label": "Dating 1 of cultural property 2000237910"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237911-1": {
+        "dating_label": "Dating 1 of cultural property 2000237911"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237914-1": {
+        "dating_label": "Dating 1 of cultural property 2000237914"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237916-1": {
+        "dating_label": "Dating 1 of cultural property 2000237916"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237918-1": {
+        "dating_label": "Dating 1 of cultural property 2000237918"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237919-1": {
+        "dating_label": "Dating 1 of cultural property 2000237919"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237920-1": {
+        "dating_label": "Dating 1 of cultural property 2000237920"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237927-1": {
+        "dating_label": "Dating 1 of cultural property 2000237927"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237928-1": {
+        "dating_label": "Dating 1 of cultural property 2000237928"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237929-1": {
+        "dating_label": "Dating 1 of cultural property 2000237929"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237939-1": {
+        "dating_label": "Dating 1 of cultural property 2000237939"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237971-1": {
+        "dating_label": "Dating 1 of cultural property 2000237971"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237972-1": {
+        "dating_label": "Dating 1 of cultural property 2000237972"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237989-1": {
+        "dating_label": "Dating 1 of cultural property 2000237989"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000238018-1": {
+        "dating_label": "Dating 1 of cultural property 2000238018"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000238019-1": {
+        "dating_label": "Dating 1 of cultural property 2000238019"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000238022-1": {
+        "dating_label": "Dating 1 of cultural property 2000238022"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000238023-1": {
+        "dating_label": "Dating 1 of cultural property 2000238023"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000238026-1": {
+        "dating_label": "Dating 1 of cultural property 2000238026"
+      },
+      "https://w3id.org/arco/resource/Dating/0700263600-1": {
+        "dating_label": "Dating 1 of cultural property 0700263600"
+      },
+      "https://w3id.org/arco/resource/Dating/2000241278-1": {
+        "dating_label": "Dating 1 of cultural property 2000241278"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000230070-1": {
+        "dating_label": "Dating 1 of cultural property 2000230070"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389188-1": {
+        "dating_label": "Dating 1 of cultural property 1600389188"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389837-1": {
+        "dating_label": "Dating 1 of cultural property 1600389837"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389219-1": {
+        "dating_label": "Dating 1 of cultural property 1600389219"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389220-1": {
+        "dating_label": "Dating 1 of cultural property 1600389220"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389221-1": {
+        "dating_label": "Dating 1 of cultural property 1600389221"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389222-1": {
+        "dating_label": "Dating 1 of cultural property 1600389222"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389223-1": {
+        "dating_label": "Dating 1 of cultural property 1600389223"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389224-1": {
+        "dating_label": "Dating 1 of cultural property 1600389224"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389225-1": {
+        "dating_label": "Dating 1 of cultural property 1600389225"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389226-1": {
+        "dating_label": "Dating 1 of cultural property 1600389226"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389227-1": {
+        "dating_label": "Dating 1 of cultural property 1600389227"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389228-1": {
+        "dating_label": "Dating 1 of cultural property 1600389228"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389229-1": {
+        "dating_label": "Dating 1 of cultural property 1600389229"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389230-1": {
+        "dating_label": "Dating 1 of cultural property 1600389230"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389231-1": {
+        "dating_label": "Dating 1 of cultural property 1600389231"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389232-1": {
+        "dating_label": "Dating 1 of cultural property 1600389232"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389233-1": {
+        "dating_label": "Dating 1 of cultural property 1600389233"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389234-1": {
+        "dating_label": "Dating 1 of cultural property 1600389234"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389235-1": {
+        "dating_label": "Dating 1 of cultural property 1600389235"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389236-1": {
+        "dating_label": "Dating 1 of cultural property 1600389236"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389237-1": {
+        "dating_label": "Dating 1 of cultural property 1600389237"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389238-1": {
+        "dating_label": "Dating 1 of cultural property 1600389238"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389240-1": {
+        "dating_label": "Dating 1 of cultural property 1600389240"
+      }
+    },
+    "wikidata_coordinates": {
+      "iglesias": {
+        "latitude": 39.3102613,
+        "longitude": 8.5372353
+      },
+      "bisceglie": {
+        "latitude": 41.240933333,
+        "longitude": 16.502061111
+      },
+      "perinaldo": {
+        "latitude": 43.866930555,
+        "longitude": 7.67435
+      },
+      "birori": {
+        "latitude": 40.2640706,
+        "longitude": 8.8167
+      },
+      "borore": {
+        "latitude": 40.2151936,
+        "longitude": 8.8031387
+      },
+      "dorgali": {
+        "latitude": 40.2915729,
+        "longitude": 9.5876312
+      },
+      "dualchi": {
+        "latitude": 40.2300373,
+        "longitude": 8.8984108
+      },
+      "macomer": {
+        "latitude": 40.2643571,
+        "longitude": 8.7750614
+      },
+      "sindia": {
+        "latitude": 40.2948463,
+        "longitude": 8.6573982
+      },
+      "ozieri": {
+        "latitude": 40.5848706,
+        "longitude": 9.0032852
+      },
+      "torralba": {
+        "latitude": 40.5134729,
+        "longitude": 8.7648582
+      },
+      "buddus\u00f2": {
+        "latitude": 40.5782379,
+        "longitude": 9.258213
+      },
+      "luras": {
+        "latitude": 40.935833333,
+        "longitude": 9.174722222
+      },
+      "suni": {
+        "latitude": 40.2808353,
+        "longitude": 8.5501957
+      }
+    }
+  },
+  "6f6a0527b79299de6f5facb6fefb2967": {
+    "geometries": {
+      "https://w3id.org/arco/resource/Geometry/1600389220-geometry-point": {
+        "latitude": 39.838175,
+        "longitude": 18.247304
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389226-geometry-point": {
+        "latitude": 40.562705,
+        "longitude": 17.208769
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389219-geometry-1": {
+        "latitude": 41.184029504,
+        "longitude": 16.490071608
+      }
+    },
+    "addresses": {
+      "https://w3id.org/arco/resource/Address/cf438e54ffa314ef42dc1dd82e3c56ca": {
+        "address_full": "ITALIA, Puglia, BT, Bisceglie, SP86, 76011 Bisceglie BT",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BT"
+      },
+      "https://w3id.org/arco/resource/Address/fa117396f10eb5851e5674679063d76b": {
+        "address_full": "ITALIA, Puglia, LE, Salve, litoranea Leuca, 73050, 73050 Salve LE",
+        "municipality": "Salve",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac": {
+        "address_full": "ITALIA, Puglia, TA, Statte, strada Vicinale Accetta Piccola, 74010 Statte TA",
+        "municipality": "Statte",
+        "region_name": "Puglia",
+        "province": "TA"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/37cab859393680839efbd48c94f0e9a3": {
+        "address_full": "OT, Luras, Sardegna",
+        "municipality": "Luras",
+        "region_name": "Luras"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/0824867f5ef9153b4313a5832a78a314": {
+        "address_full": "NU, Macomer, Sardegna",
+        "municipality": "Macomer",
+        "region_name": "Macomer"
+      }
+    },
+    "datings": {
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053230-1": {
+        "dating_label": "Dating 1 of cultural property 2000053230"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237971-1": {
+        "dating_label": "Dating 1 of cultural property 2000237971"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389219-1": {
+        "dating_label": "Dating 1 of cultural property 1600389219"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389220-1": {
+        "dating_label": "Dating 1 of cultural property 1600389220"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389226-1": {
+        "dating_label": "Dating 1 of cultural property 1600389226"
+      }
+    },
+    "wikidata_coordinates": {
+      "luras": {
+        "latitude": 40.935833333,
+        "longitude": 9.174722222
+      },
+      "macomer": {
+        "latitude": 40.2643571,
+        "longitude": 8.7750614
+      }
+    }
+  },
+  "2d5b16f04ae9049bbe6a34bc8ef36ad8": {
+    "geometries": {
+      "https://w3id.org/arco/resource/Geometry/1600389226-geometry-point": {
+        "latitude": 40.562705,
+        "longitude": 17.208769
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389219-geometry-1": {
+        "latitude": 41.184029504,
+        "longitude": 16.490071608
+      }
+    },
+    "addresses": {
+      "https://w3id.org/arco/resource/Address/cf438e54ffa314ef42dc1dd82e3c56ca": {
+        "address_full": "ITALIA, Puglia, BT, Bisceglie, SP86, 76011 Bisceglie BT",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BT"
+      },
+      "https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac": {
+        "address_full": "ITALIA, Puglia, TA, Statte, strada Vicinale Accetta Piccola, 74010 Statte TA",
+        "municipality": "Statte",
+        "region_name": "Puglia",
+        "province": "TA"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/0824867f5ef9153b4313a5832a78a314": {
+        "address_full": "NU, Macomer, Sardegna",
+        "municipality": "Macomer",
+        "region_name": "Macomer"
+      }
+    },
+    "datings": {
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237971-1": {
+        "dating_label": "Dating 1 of cultural property 2000237971"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389219-1": {
+        "dating_label": "Dating 1 of cultural property 1600389219"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389226-1": {
+        "dating_label": "Dating 1 of cultural property 1600389226"
+      }
+    },
+    "wikidata_coordinates": {
+      "macomer": {
+        "latitude": 40.2643571,
+        "longitude": 8.7750614
+      }
+    }
+  },
+  "d575a702cdbe750cfd31363b5edfd6f5": {
+    "geometries": {
+      "https://w3id.org/arco/resource/Geometry/1600027060-geometry-point": {
+        "latitude": 41.096268,
+        "longitude": 16.36765
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389220-geometry-point": {
+        "latitude": 39.838175,
+        "longitude": 18.247304
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389223-geometry-point": {
+        "latitude": 40.150937,
+        "longitude": 18.267309
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389226-geometry-point": {
+        "latitude": 40.562705,
+        "longitude": 17.208769
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389219-geometry-1": {
+        "latitude": 41.184029504,
+        "longitude": 16.490071608
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389221-geometry-1": {
+        "latitude": 40.110993218,
+        "longitude": 18.28860043
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389222-geometry-1": {
+        "latitude": 40.15090293,
+        "longitude": 18.267279756
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389224-geometry-1": {
+        "latitude": 40.114408727,
+        "longitude": 18.423044842
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389240-geometry-1": {
+        "latitude": 41.692961857,
+        "longitude": 15.909614099
+      }
+    },
+    "addresses": {
+      "https://w3id.org/arco/resource/Address/901113b117e72824af0c91f4ea3338cc": {
+        "address_full": "Italia, Puglia, BA, Bisceglie",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/cf438e54ffa314ef42dc1dd82e3c56ca": {
+        "address_full": "ITALIA, Puglia, BT, Bisceglie, SP86, 76011 Bisceglie BT",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BT"
+      },
+      "https://w3id.org/arco/resource/Address/d608e4411a9ff89ec8f5db1a738ee5e4": {
+        "address_full": "ITALIA, Puglia, BA, Corato",
+        "municipality": "Corato",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/8b40f9729c842e9a97caa4b29b7ff0c4": {
+        "address_full": "ITALIA, Puglia, LE, Corigliano d'Otranto, via Vecchia Maglie, 73022",
+        "municipality": "Corigliano D'otranto",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/2732ae24a43ad235787cd4e1b8aad7ec": {
+        "address_full": "ITALIA, Puglia, LE, Giurdignano, 73020 Giurdignano LE",
+        "municipality": "Giurdignano",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/595c88a33771f250de9f30a3e3009f5d": {
+        "address_full": "ITALIA, Puglia, LE, Maglie, S. C. Luci, 73024, Maglie (LE)",
+        "municipality": "Maglie",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/8141400e431c25b5d7a0b45d6506b326": {
+        "address_full": "ITALIA, Puglia, FG, Monte Sant'Angelo, Via Santa Maria di Pulsano, 71037",
+        "municipality": "MONTE SANT'ANGELO",
+        "region_name": "Puglia",
+        "province": "FG"
+      },
+      "https://w3id.org/arco/resource/Address/fa117396f10eb5851e5674679063d76b": {
+        "address_full": "ITALIA, Puglia, LE, Salve, litoranea Leuca, 73050, 73050 Salve LE",
+        "municipality": "Salve",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac": {
+        "address_full": "ITALIA, Puglia, TA, Statte, strada Vicinale Accetta Piccola, 74010 Statte TA",
+        "municipality": "Statte",
+        "region_name": "Puglia",
+        "province": "TA"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/31ddada47e1364f51aed778e3222d54e": {
+        "address_full": "NU, Birori, Sardegna",
+        "municipality": "Birori",
+        "region_name": "Birori"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/37cab859393680839efbd48c94f0e9a3": {
+        "address_full": "OT, Luras, Sardegna",
+        "municipality": "Luras",
+        "region_name": "Luras"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/0824867f5ef9153b4313a5832a78a314": {
+        "address_full": "NU, Macomer, Sardegna",
+        "municipality": "Macomer",
+        "region_name": "Macomer"
+      }
+    },
+    "datings": {
+      "https://w3id.org/arco/resource/Dating/1600027060-1": {
+        "dating_label": "Dating 1 of cultural property 1600027060"
+      },
+      "https://w3id.org/arco/resource/Dating/1600027066-1": {
+        "dating_label": "Dating 1 of cultural property 1600027066"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053213-1": {
+        "dating_label": "Dating 1 of cultural property 2000053213"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053224-1": {
+        "dating_label": "Dating 1 of cultural property 2000053224"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053230-1": {
+        "dating_label": "Dating 1 of cultural property 2000053230"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237910-1": {
+        "dating_label": "Dating 1 of cultural property 2000237910"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237971-1": {
+        "dating_label": "Dating 1 of cultural property 2000237971"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389219-1": {
+        "dating_label": "Dating 1 of cultural property 1600389219"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389220-1": {
+        "dating_label": "Dating 1 of cultural property 1600389220"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389221-1": {
+        "dating_label": "Dating 1 of cultural property 1600389221"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389222-1": {
+        "dating_label": "Dating 1 of cultural property 1600389222"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389223-1": {
+        "dating_label": "Dating 1 of cultural property 1600389223"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389224-1": {
+        "dating_label": "Dating 1 of cultural property 1600389224"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389226-1": {
+        "dating_label": "Dating 1 of cultural property 1600389226"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389240-1": {
+        "dating_label": "Dating 1 of cultural property 1600389240"
+      }
+    },
+    "wikidata_coordinates": {
+      "luras": {
+        "latitude": 40.935833333,
+        "longitude": 9.174722222
+      },
+      "macomer": {
+        "latitude": 40.2643571,
+        "longitude": 8.7750614
+      },
+      "birori": {
+        "latitude": 40.2640706,
+        "longitude": 8.8167
+      },
+      "bisceglie": {
+        "latitude": 41.240933333,
+        "longitude": 16.502061111
+      }
+    }
+  },
+  "5293205977f44431129af9412ad722dc": {
+    "geometries": {
+      "https://w3id.org/arco/resource/Geometry/1600027060-geometry-point": {
+        "latitude": 41.096268,
+        "longitude": 16.36765
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389220-geometry-point": {
+        "latitude": 39.838175,
+        "longitude": 18.247304
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389223-geometry-point": {
+        "latitude": 40.150937,
+        "longitude": 18.267309
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389225-geometry-point": {
+        "latitude": 39.863285,
+        "longitude": 18.300135
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389226-geometry-point": {
+        "latitude": 40.562705,
+        "longitude": 17.208769
+      },
+      "https://w3id.org/arco/resource/Geometry/2000241278-geometry-point-1": {
+        "latitude": 39.43543,
+        "longitude": 8.59765
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389219-geometry-1": {
+        "latitude": 41.184029504,
+        "longitude": 16.490071608
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389221-geometry-1": {
+        "latitude": 40.110993218,
+        "longitude": 18.28860043
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389222-geometry-1": {
+        "latitude": 40.15090293,
+        "longitude": 18.267279756
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389224-geometry-1": {
+        "latitude": 40.114408727,
+        "longitude": 18.423044842
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389227-geometry-1": {
+        "latitude": 40.113051653,
+        "longitude": 18.418827605
+      },
+      "https://w3id.org/arco/resource/Geometry/1600389240-geometry-1": {
+        "latitude": 41.692961857,
+        "longitude": 15.909614099
+      }
+    },
+    "addresses": {
+      "https://w3id.org/arco/resource/Address/901113b117e72824af0c91f4ea3338cc": {
+        "address_full": "Italia, Puglia, BA, Bisceglie",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/cf438e54ffa314ef42dc1dd82e3c56ca": {
+        "address_full": "ITALIA, Puglia, BT, Bisceglie, SP86, 76011 Bisceglie BT",
+        "municipality": "Bisceglie",
+        "region_name": "Puglia",
+        "province": "BT"
+      },
+      "https://w3id.org/arco/resource/Address/d608e4411a9ff89ec8f5db1a738ee5e4": {
+        "address_full": "Italia, Puglia, BA, Corato",
+        "municipality": "Corato",
+        "region_name": "Puglia",
+        "province": "BA"
+      },
+      "https://w3id.org/arco/resource/Address/8b40f9729c842e9a97caa4b29b7ff0c4": {
+        "address_full": "ITALIA, Puglia, LE, Corigliano d'Otranto, via Vecchia Maglie, 73022",
+        "municipality": "Corigliano D'otranto",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/b190660e4b1f8b80c5509b606d04de5b": {
+        "address_full": "ITALIA, Sardegna, VS, Gesturi, GESTURI",
+        "municipality": "Gesturi",
+        "region_name": "Sardegna",
+        "province": "VS"
+      },
+      "https://w3id.org/arco/resource/Address/2732ae24a43ad235787cd4e1b8aad7ec": {
+        "address_full": "ITALIA, Puglia, LE, Giurdignano, 73020 Giurdignano LE",
+        "municipality": "Giurdignano",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/595c88a33771f250de9f30a3e3009f5d": {
+        "address_full": "ITALIA, Puglia, LE, Maglie, S. C. Luci, 73024, Maglie (LE)",
+        "municipality": "Maglie",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/8141400e431c25b5d7a0b45d6506b326": {
+        "address_full": "ITALIA, Puglia, FG, Monte Sant'Angelo, Via Santa Maria di Pulsano, 71037",
+        "municipality": "MONTE SANT'ANGELO",
+        "region_name": "Puglia",
+        "province": "FG"
+      },
+      "https://w3id.org/arco/resource/Address/d4c02525e6d3235d80789424ed1e8eaf": {
+        "address_full": "ITALIA, Liguria, IM, Perinaldo",
+        "municipality": "Perinaldo",
+        "region_name": "Liguria",
+        "province": "IM"
+      },
+      "https://w3id.org/arco/resource/Address/95a809b88ed1978ffb780a3b68f6d3f7": {
+        "address_full": "ITALIA, Puglia, LE, Salve, localizzazione sconosciuta",
+        "municipality": "Salve",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/fa117396f10eb5851e5674679063d76b": {
+        "address_full": "ITALIA, Puglia, LE, Salve, litoranea Leuca, 73050, 73050 Salve LE",
+        "municipality": "Salve",
+        "region_name": "Puglia",
+        "province": "LE"
+      },
+      "https://w3id.org/arco/resource/Address/afbfcb1e93fe608cc51a9cb1255496ac": {
+        "address_full": "ITALIA, Puglia, TA, Statte, strada Vicinale Accetta Piccola, 74010 Statte TA",
+        "municipality": "Statte",
+        "region_name": "Puglia",
+        "province": "TA"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/31ddada47e1364f51aed778e3222d54e": {
+        "address_full": "NU, Birori, Sardegna",
+        "municipality": "Birori",
+        "region_name": "Birori"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/a1b8c2d360e6f29f9df4302f3984fc82": {
+        "address_full": "OT, Buddus\u00f2, Sardegna",
+        "municipality": "Buddus\u00f2",
+        "region_name": "Buddus\u00f2"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/37cab859393680839efbd48c94f0e9a3": {
+        "address_full": "OT, Luras, Sardegna",
+        "municipality": "Luras",
+        "region_name": "Luras"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Address/0824867f5ef9153b4313a5832a78a314": {
+        "address_full": "NU, Macomer, Sardegna",
+        "municipality": "Macomer",
+        "region_name": "Macomer"
+      }
+    },
+    "datings": {
+      "https://w3id.org/arco/resource/Dating/1600027060-1": {
+        "dating_label": "Dating 1 of cultural property 1600027060"
+      },
+      "https://w3id.org/arco/resource/Dating/1600027066-1": {
+        "dating_label": "Dating 1 of cultural property 1600027066"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053213-1": {
+        "dating_label": "Dating 1 of cultural property 2000053213"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053224-1": {
+        "dating_label": "Dating 1 of cultural property 2000053224"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000053230-1": {
+        "dating_label": "Dating 1 of cultural property 2000053230"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237910-1": {
+        "dating_label": "Dating 1 of cultural property 2000237910"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237918-1": {
+        "dating_label": "Dating 1 of cultural property 2000237918"
+      },
+      "https://w3id.org/arco/resource/SARDEGNA/Dating/2000237971-1": {
+        "dating_label": "Dating 1 of cultural property 2000237971"
+      },
+      "https://w3id.org/arco/resource/Dating/0700263600-1": {
+        "dating_label": "Dating 1 of cultural property 0700263600"
+      },
+      "https://w3id.org/arco/resource/Dating/2000241278-1": {
+        "dating_label": "Dating 1 of cultural property 2000241278"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389219-1": {
+        "dating_label": "Dating 1 of cultural property 1600389219"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389220-1": {
+        "dating_label": "Dating 1 of cultural property 1600389220"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389221-1": {
+        "dating_label": "Dating 1 of cultural property 1600389221"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389222-1": {
+        "dating_label": "Dating 1 of cultural property 1600389222"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389223-1": {
+        "dating_label": "Dating 1 of cultural property 1600389223"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389224-1": {
+        "dating_label": "Dating 1 of cultural property 1600389224"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389225-1": {
+        "dating_label": "Dating 1 of cultural property 1600389225"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389226-1": {
+        "dating_label": "Dating 1 of cultural property 1600389226"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389227-1": {
+        "dating_label": "Dating 1 of cultural property 1600389227"
+      },
+      "https://w3id.org/arco/resource/Dating/1600389240-1": {
+        "dating_label": "Dating 1 of cultural property 1600389240"
+      }
+    },
+    "wikidata_coordinates": {
+      "luras": {
+        "latitude": 40.935833333,
+        "longitude": 9.174722222
+      },
+      "buddus\u00f2": {
+        "latitude": 40.5782379,
+        "longitude": 9.258213
+      },
+      "macomer": {
+        "latitude": 40.2643571,
+        "longitude": 8.7750614
+      },
+      "birori": {
+        "latitude": 40.2640706,
+        "longitude": 8.8167
+      },
+      "perinaldo": {
+        "latitude": 43.866930555,
+        "longitude": 7.67435
+      },
+      "bisceglie": {
+        "latitude": 41.240933333,
+        "longitude": 16.502061111
+      }
+    }
+  }
+}

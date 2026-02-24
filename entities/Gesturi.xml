@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:j.0="https://w3id.org/arco/ontology/construction-description/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/2000241278">
+    <dc:description>monumento megalitico in calcare composto da due lastroni infissi verticalmente e paralleli fra loro che delimitano le pareti della camera funeraria; questa è chiusa posteriormente da una parete di roccia affiorante, squadrata e levigata. La copertura è costituita da un grande lastrone. Nelle immediate vicinanze del monumento si registra un'area di dispersione di schegge di ossidiana</dc:description>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <core:description>monumento megalitico in calcare composto da due lastroni infissi verticalmente e paralleli fra loro che delimitano le pareti della camera funeraria; questa è chiusa posteriormente da una parete di roccia affiorante, squadrata e levigata. La copertura è costituita da un grande lastrone. Nelle immediate vicinanze del monumento si registra un'area di dispersione di schegge di ossidiana</core:description>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/2000241278-1"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/2000241278-geometry-point-1"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordMA/2000241278"/>
+    <a-cd:hasUrbanPlanningEnvironmentalRelationWith rdf:resource="https://w3id.org/arco/resource/ArchaeologicalProperty/2000241279"/>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/bd49053080d0a75e4b69aa09dbb0a737"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/2000241278-geometry-point"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/2000241278-legal-situation-proprieta-privata"/>
+    <core:hasPart rdf:resource="https://w3id.org/arco/resource/CulturalPropertyPart/2000241278-part-orizzontale"/>
+    <dc:identifier>2000241278</dc:identifier>
+    <dc:rights>proprietà privata</dc:rights>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/2000241278-cataloguing-agency"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordMA/2000241278"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1038023/ICCD13066094_DSC_1124.JPG"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/2000241278"/>
+    <dc:subject rdf:resource="http://culturaitalia.it/pico/thesaurus/4.1#monumenti_archeologici"/>
+    <dc:type>dolmen</dc:type>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/2000241278-photographic-documentation-1"/>
+    <dc:title>dolmen</dc:title>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/b190660e4b1f8b80c5509b606d04de5b"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/2000241278-heritage-protection-agency"/>
+    <arco:catalogueNumber>00241278</arco:catalogueNumber>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1038023/ICCD13106243_DSC_1127.JPG"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/5cd20332c662a3b1a391ba80fb108ead"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <a-dd:hasConservationStatus rdf:resource="https://w3id.org/arco/resource/ConservationStatus/2000241278-conservation-status-1"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1038023/ICCD13106243_DSC_1127.JPG"/>
+    <rdfs:comment>dolmen, area ad uso funerario, funeraria, area archeologica di Sa ucca 'e su pauli</rdfs:comment>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordMA/2000241278"/>
+    <dc:coverage>Gesturi (VS)</dc:coverage>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1038023/ICCD13066094_DSC_1124.JPG"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/2000241278-photographic-documentation-2"/>
+    <j.0:hasVerticalElement rdf:resource="https://w3id.org/arco/resource/VerticalElement/2000241278-5e487ba2c2bd82476fe30328758a77d3"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/2000241278-1"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/2000241278-area-archeologica-di-sa-ucca-e-su-pauli"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/2000241278-current"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/2000241278-1"/>
+    <arco:uniqueIdentifier>2000241278</arco:uniqueIdentifier>
+    <dc:subject>area ad uso funerario</dc:subject>
+    <rdfs:label xml:lang="it">dolmen, area ad uso funerario - Gesturi (VS)  (Neolitico)</rdfs:label>
+    <rdfs:label xml:lang="en">dolmen, area ad uso funerario - Gesturi (VS)  (Neolitico)</rdfs:label>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/b190660e4b1f8b80c5509b606d04de5b"/>
+    <arco:regionIdentifier>20</arco:regionIdentifier>
+    <a-dd:hasFunctionalPurpose rdf:resource="https://w3id.org/arco/resource/FunctionalPurpose/funeraria"/>
+    <a-cd:hasSurvey rdf:resource="https://w3id.org/arco/resource/ArchaeologicalFieldSurvey/2000241278-survey-1"/>
+  </rdf:Description>
+</rdf:RDF>

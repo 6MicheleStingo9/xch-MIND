@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389235">
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1600389235-1"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389235-1"/>
+    <a-dd:hasConservationStatus rdf:resource="https://w3id.org/arco/resource/ConservationStatus/1600389235-conservation-status-1"/>
+    <dc:description>Oggi si trova immerso in un oliveto, facilmente raggiungibile e segnalato mediante apposito cartello informativo. È un dolmen a camera unica, costituito da uno spesso lastrone di copertura a forma di rettangolo irregolare sorretto da cinque piedritti monolitici. Il materiale è coperto da formazioni licheniche e presenta una superficie fortemente corrosa</dc:description>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389235-cataloguing-agency"/>
+    <pico:materialAndTechnique>Reperti archeologici/ (pietra calcarea)</pico:materialAndTechnique>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389235-documentation-2"/>
+    <dc:identifier>1600389235</dc:identifier>
+    <a-cd:historicalInformation>Come gli altri dolmen salentini esso viene riferito cronologicamente all’età del Bronzo e più precisamente alla prima metà del II millennio a.C., sulla base dell’analogia con i dolmen maltesi. La sua funzione, come per gli altri dolmen che non hanno restituito testimonianze funerarie, potrebbe essere stata quella di spazio cerimoniale, di luogo di osservazione astronomica, di luogo di memoria degli antenati o, infine, segno tangibile e duraturo delle comunità che lo hanno eretto per celebrare i vivi e non i defunti</a-cd:historicalInformation>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16292963_S216_Pir_732_03.jpg"/>
+    <rdfs:label xml:lang="en">dolmen, Dolmen Gurgulante (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, Dolmen Gurgulante (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo)</rdfs:label>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389235"/>
+    <dc:title>dolmen</dc:title>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/reperti-archeologici-pietra-calcarea"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389235-bibliography-4"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389235-heritage-protection-agency"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389235-geometry-point"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389235"/>
+    <dc:subject>Dolmen Gurgulante</dc:subject>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389235-documentation-3"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389235"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389235-documentation-1"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389235"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389235-dolmen-gurgulante"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16292954_S216_Pir_732_01.jpg"/>
+    <dc:type>dolmen</dc:type>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/c84c1d2481535b0f6d20757bf50f287b"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389235-bibliography-3"/>
+    <a-cd:hasProtectiveMeasure rdf:resource="https://w3id.org/arco/resource/ProtectiveMeasure/1600389235-protective-measure-1"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16292963_S216_Pir_732_03.jpg"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16292961_S216_Pir_732_02.jpg"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389235-bibliography-2"/>
+    <arco:uniqueIdentifier>1600389235</arco:uniqueIdentifier>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389235-geometry-1"/>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/resource/TypeOfContext/contesto-periurbano"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/c84c1d2481535b0f6d20757bf50f287b"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16292954_S216_Pir_732_01.jpg"/>
+    <a-dd:hasTechnicalStatus rdf:resource="https://w3id.org/arco/resource/CulturalEntityTechnicalStatus/1600389235"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389235"/>
+    <core:description>Oggi si trova immerso in un oliveto, facilmente raggiungibile e segnalato mediante apposito cartello informativo. È un dolmen a camera unica, costituito da uno spesso lastrone di copertura a forma di rettangolo irregolare sorretto da cinque piedritti monolitici. Il materiale è coperto da formazioni licheniche e presenta una superficie fortemente corrosa</core:description>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389235"/>
+    <arco:catalogueNumber>00389235</arco:catalogueNumber>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389235-current"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389235-bibliography-1"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389235-legal-situation-dato-non-disponibile"/>
+    <rdfs:comment>Dolmen Gurgulante</rdfs:comment>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16292961_S216_Pir_732_02.jpg"/>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+  </rdf:Description>
+</rdf:RDF>

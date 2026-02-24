@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# LaTeX artifactsVedo c
+paper/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Output files (keep structure but ignore generated content)
+output/*.ttl
+output/*.xml
+output/.rate_limit*.json
+output/.knowledge_history*.json
+output/cache_analysis_report.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.bak
+*.tmp
+w3id/

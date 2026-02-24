@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/SARDEGNA/ArchaeologicalProperty/2000053224">
+    <dc:title>Dolmen di Bilella (dolmen)</dc:title>
+    <dc:subject rdf:resource="http://culturaitalia.it/pico/thesaurus/4.1#monumenti_archeologici"/>
+    <foaf:depiction rdf:resource="https://catalogo.sardegnacultura.it/media/0000015949983b8767f93377007f000000010001/watermark-view/"/>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/SARDEGNA/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <dc:source rdf:resource="https://catalogo.sardegnacultura.it/card/223645"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/SARDEGNA/CatalogueRecordMA/2000053224"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/SARDEGNA/Address/37cab859393680839efbd48c94f0e9a3"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/SARDEGNA/Agent/9846f2d7e24272f38e6f66bf0ff8d7cf"/>
+    <rdfs:comment>dolmen, Dolmen di Bilella</rdfs:comment>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/SARDEGNA/TimeIndexedTypedLocation/2000053224-current"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/SARDEGNA/MeasurementCollection/2000053224-1"/>
+    <pico:preview rdf:resource="https://catalogo.sardegnacultura.it/media/0000015949983b8767f93377007f000000010001/watermark-view/"/>
+    <arco:catalogueNumber>00053224</arco:catalogueNumber>
+    <arco:regionIdentifier>20</arco:regionIdentifier>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/SARDEGNA/DesignationInTime/2000053224-dolmen-di-bilella"/>
+    <a-dd:hasConservationStatus rdf:resource="https://w3id.org/arco/resource/SARDEGNA/ConservationStatus/2000053224-conservation-status-1"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/SARDEGNA/Dating/2000053224-1"/>
+    <rdfs:label xml:lang="it">Dolmen di Bilella (dolmen) - Luras (OT)  (V-III millennio BC cal)</rdfs:label>
+    <rdfs:label xml:lang="en">Dolmen di Bilella (dolmen) - Luras (OT)  (V-III millennio BC cal)</rdfs:label>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/SARDEGNA/MeasurementCollection/2000053224-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/SARDEGNA/AgentRole/2000053224-cataloguing-agency"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/SARDEGNA/LegalSituation/2000053224-legal-situation-proprieta-ente-pubblico-territoriale"/>
+    <arco:uniqueIdentifier>2000053224</arco:uniqueIdentifier>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/SARDEGNA/Agent/9846f2d7e24272f38e6f66bf0ff8d7cf"/>
+    <dc:coverage>Luras (OT)</dc:coverage>
+    <dc:subject>Dolmen di Bilella</dc:subject>
+    <dc:type>dolmen</dc:type>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/SARDEGNA/AgentRole/2000053224-heritage-protection-agency"/>
+    <dc:rights>proprietà Ente pubblico territoriale</dc:rights>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/SARDEGNA/CatalogueRecordMA/2000053224"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/SARDEGNA/CatalogueRecordMA/2000053224"/>
+    <a-cd:hasAuthorshipAttribution rdf:resource="https://w3id.org/arco/resource/SARDEGNA/CulturalScopeAttribution/2000053224-cultural-scope-attribution-1"/>
+    <dc:identifier>2000053224</dc:identifier>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/SARDEGNA/Address/37cab859393680839efbd48c94f0e9a3"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+  </rdf:Description>
+</rdf:RDF>

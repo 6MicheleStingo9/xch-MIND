@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389222">
+    <dc:title>dolmen</dc:title>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/reperti-archeologici-pietra-calcarea"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389222"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389222-geometry-1"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/8b40f9729c842e9a97caa4b29b7ff0c4"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389222"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389222-heritage-protection-agency"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389222"/>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/resource/TypeOfContext/contesto-periurbano"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389222"/>
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389222-geometry-point"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389222-1"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389222-bibliography-2"/>
+    <a-dd:hasTechnicalStatus rdf:resource="https://w3id.org/arco/resource/CulturalEntityTechnicalStatus/1600389222"/>
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1600389222-1"/>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389222-cataloguing-agency"/>
+    <arco:catalogueNumber>00389222</arco:catalogueNumber>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <dc:description>Fu scoperto nel 1993 da Oreste Caroppo, studioso locale, da cui prende il nome, poco lontano da un secondo dolmen conosciuto come Caroppo 2, ubicato a pochi metri di distanza. In particolare, Dolmen Caroppo 1 consiste in un dolmen coperto da tre lastre a livelli decrescenti che scandiscono la divisione interna a tre piccole celle. Il megalite è alto 1 metro è sorretto da un ortostato monolitico a NE e da pietre sovrapposte, situate anche al suo interno. Questo dolmen presenta una struttura più complessa rispetto agli altri dolmen salentini finora noti, ma sembra sia da escludere, anche per questo monumento, la presenza di un corridoio d’ingresso</dc:description>
+    <dc:type>dolmen</dc:type>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16300338_S216_Pir_732_01.jpg"/>
+    <arco:uniqueIdentifier>1600389222</arco:uniqueIdentifier>
+    <rdfs:label xml:lang="en">dolmen, Dolmen Caroppo 1 (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo antico)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, Dolmen Caroppo 1 (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo antico)</rdfs:label>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389222"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389222-dolmen-caroppo-1"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389222"/>
+    <rdfs:comment>Dolmen Caroppo 1</rdfs:comment>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389222-legal-situation-dato-non-disponibile"/>
+    <core:description>Fu scoperto nel 1993 da Oreste Caroppo, studioso locale, da cui prende il nome, poco lontano da un secondo dolmen conosciuto come Caroppo 2, ubicato a pochi metri di distanza. In particolare, Dolmen Caroppo 1 consiste in un dolmen coperto da tre lastre a livelli decrescenti che scandiscono la divisione interna a tre piccole celle. Il megalite è alto 1 metro è sorretto da un ortostato monolitico a NE e da pietre sovrapposte, situate anche al suo interno. Questo dolmen presenta una struttura più complessa rispetto agli altri dolmen salentini finora noti, ma sembra sia da escludere, anche per questo monumento, la presenza di un corridoio d’ingresso</core:description>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <dc:identifier>1600389222</dc:identifier>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <pico:materialAndTechnique>Reperti archeologici/ (pietra calcarea)</pico:materialAndTechnique>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16300338_S216_Pir_732_01.jpg"/>
+    <a-cd:historicalInformation>In assenza di dati di scavo e di contesto, è possibile ipotizzare una destinazione rituale per il monumento coriglianese, la cui realizzazione è certamente collocabile nell’età del Bronzo, probabilmente nella prima metà del II millennio a.C., in accordo con le cronologie attribuite ad altri dolmen del territorio</a-cd:historicalInformation>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389222-documentation-1"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <dc:subject>Dolmen Caroppo 1</dc:subject>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389222-current"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/8b40f9729c842e9a97caa4b29b7ff0c4"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389222-bibliography-1"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389222-bibliography-3"/>
+  </rdf:Description>
+</rdf:RDF>

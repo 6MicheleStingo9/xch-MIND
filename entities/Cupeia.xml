@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/0700263600">
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/d4c02525e6d3235d80789424ed1e8eaf"/>
+    <rdfs:label xml:lang="en">Dolmen località Cupeia (dolmen, area ad uso funerario) - Perinaldo (IM)  (Eta' antica)</rdfs:label>
+    <rdfs:label xml:lang="it">Dolmen località Cupeia (dolmen, area ad uso funerario) - Perinaldo (IM)  (Eta' antica)</rdfs:label>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/49f01a4751e1e0bfb7a0d51f45097d0e"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/d4c02525e6d3235d80789424ed1e8eaf"/>
+    <arco:uniqueIdentifier>0700263600</arco:uniqueIdentifier>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/c5695de9a247f6edd05b348fdb7d219f"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordMA/0700263600"/>
+    <dc:subject>Dolmen località Cupeia</dc:subject>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordMA/0700263600"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <dc:type>dolmen</dc:type>
+    <arco:catalogueNumber>00263600</arco:catalogueNumber>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/0700263600-photographic-documentation-2"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/GraphicOrCartographicDocumentation/0700263600-graphic-cartographic-documentation-1"/>
+    <dc:title>Dolmen località Cupeia (dolmen, area ad uso funerario)</dc:title>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/0700263600-current"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/0700263600-legal-situation-proprieta-privata"/>
+    <dc:description>L'area sulla quale insiste l'evidenza consiste in un declivio terrazzato a secco, esposto a N-NO, caratterizzato da una vegetazione ad alto fusto, prevalentemente castagno, oltre a sottobosco spontaneo; tale sistemazione risalirebbe, come vedremo, alla metà del secolo scorso. La struttura litica, attualmente visibile, consta di un riparo creato artificialmente posando (da SO) un enorme lastrone di arenaria quarzosa su di un apparente affioramento naturale della stesso tipo di roccia, a NE; analizzando la struttura da N si nota, in corrispondenza dell'appoggio tra la lastra e l'affioramento, una sorta di blocco di allettamento:si nota inoltre, sotto la copertura così ottenuta, un muretto in pietre piatte piuttosto regolare, di andamento E-O, con l'apparente funzione di delimitazione o di contenimento (a mò di piccolo terrapieno) del settore posto a S, al centro del riparo. La fonte (nonché guida) citata prima ha segnalato inoltre la presenza, effettivamente verificata, di alcuni importanti petroglifi ubicati nel riparo, su una propaggine dell'affioramento, vicino al terreno, visibili entrando nella struttura dal lato S: si tratta di una croce (incisa profondamente), più due segni meno chiari apparentemente interpretabili come lettere I ed L. Una possibile interpretazione, certamente suscettibile di correzioni o smentite a seguito di più approfondite ricerche, circa la funzione di tali incisioni parrebbe quella di cristianizzazione di un luogo pagano. Nel corso della ricognizione condotta sul sito (febbraio 2006), la pulitura dal fogliame superficiale dell'area immediatamente a S delle incisioni di cui sopra ha portato alla messa in evidenza di nuovi elementi d'indagine, forse determinanti per un'interpretazione funzionale della struttura. E' stata infatti notata la presenza di una piccola formazione ovoidale allungata formata da piccoli massi non lavorati posati rozzamente sul terreno, dubitativamente interpretabile come un recinto avente la funzione di delimitare un'apparente sepoltura, disposta E-O. In corrispondenza dell'estremità E-NE dell'ipotetico recinto si è inoltre notata la presenza di un secondo muretto, analogo a quello individuato sul versante N della struttura, il cui corso superiore appare costituito da due lastre piatte di notevoli dimensioni. La formazione portata alla luce è stata prontamente occultata con terriccio e fogliame. Se si ipotizzasse la presenza in antico di un terzo lastrone di copertura, poggiato sulle altre due con orientamento S-N, si potrebbe collocare in questo punto l'entrata della struttura, con orientamento verso E, entrata della quale il piccolo paramento sopra descritto costituirebbe la soglia. La fonte succitata ha riferito, riportando notizie avute da un testimone oculare, che i muretti di terrazzamento risalirebbero, per lo meno nel loro aspetto attuale, al periodo del secondo conflitto mondiale; ha ricordato inoltre che, a quanto riportato, esistevano altre evidenze, analoghe a quella appena descritta, le quali furono per lo più distrutte reimpiegando poi le lastre come materiale di risulta: la notizia, a giudicare dalle dimensioni di alcuni dei blocchi impiegati nei paramenti di cui sopra,sembrerebbe plausibile. La struttura analizzata fu invece risparmiata, non è chiaro per quali motivi: secondo la fonte riportata, perché era "troppo bella"; più verosimilmente, o perché la lastra era troppo grossa da demolire o perché la presenza della croce accese la superstizione dei lavoranti. Il toponimo al quale è riferita l'evidenza non compare sulla cartografia tecnica regionale ma è stato anch'esso riportato dalla fonte: la sua origine andrebbe ricercata nell'esistenza in zona, in età post-medievale, di una piccola manifattura di fittili da costruzione (coppi), manifattura curiosamente gestita da manodopera esclusivamente femminile. La ricognizione condotta su tutta l'area non ha purtroppo restituito alcun frammento ceramico,anche se va notata la quasi nulla visibilità a causa della presenza di abbondante fogliame. Il complesso dei dati riportati consiglierebbe un'urgente prospezione, anche tramite un limitato saggio, stante anche l'elevato rischio di scasso a causa della notevole vicinanza rispetto al tracciato stradale. Sempre da un punto di vista toponomastico, degna d'interesse sembrerebbe inoltre la presenza del non distante toponimo "Messeluco"</dc:description>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordMA/0700263600"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/0700263600-dolmen-localita-cupeia"/>
+    <pico:preview rdf:resource="https://www.sigecweb.beniculturali.it/images/fullsize/ICCD1033327/ICCD12135663_Cupeia%204.JPG"/>
+    <rdfs:comment>dolmen, area ad uso funerario, funeraria, Dolmen località Cupeia</rdfs:comment>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <dc:rights>proprietà privata</dc:rights>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/0700263600-1"/>
+    <dc:subject rdf:resource="http://culturaitalia.it/pico/thesaurus/4.1#monumenti_archeologici"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/0700263600"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/0700263600-photographic-documentation-1"/>
+    <dc:identifier>0700263600</dc:identifier>
+    <dc:coverage>Perinaldo (IM)</dc:coverage>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/0700263600-cataloguing-agency"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/0700263600-photographic-documentation-4"/>
+    <core:description>L'area sulla quale insiste l'evidenza consiste in un declivio terrazzato a secco, esposto a N-NO, caratterizzato da una vegetazione ad alto fusto, prevalentemente castagno, oltre a sottobosco spontaneo; tale sistemazione risalirebbe, come vedremo, alla metà del secolo scorso. La struttura litica, attualmente visibile, consta di un riparo creato artificialmente posando (da SO) un enorme lastrone di arenaria quarzosa su di un apparente affioramento naturale della stesso tipo di roccia, a NE; analizzando la struttura da N si nota, in corrispondenza dell'appoggio tra la lastra e l'affioramento, una sorta di blocco di allettamento:si nota inoltre, sotto la copertura così ottenuta, un muretto in pietre piatte piuttosto regolare, di andamento E-O, con l'apparente funzione di delimitazione o di contenimento (a mò di piccolo terrapieno) del settore posto a S, al centro del riparo. La fonte (nonché guida) citata prima ha segnalato inoltre la presenza, effettivamente verificata, di alcuni importanti petroglifi ubicati nel riparo, su una propaggine dell'affioramento, vicino al terreno, visibili entrando nella struttura dal lato S: si tratta di una croce (incisa profondamente), più due segni meno chiari apparentemente interpretabili come lettere I ed L. Una possibile interpretazione, certamente suscettibile di correzioni o smentite a seguito di più approfondite ricerche, circa la funzione di tali incisioni parrebbe quella di cristianizzazione di un luogo pagano. Nel corso della ricognizione condotta sul sito (febbraio 2006), la pulitura dal fogliame superficiale dell'area immediatamente a S delle incisioni di cui sopra ha portato alla messa in evidenza di nuovi elementi d'indagine, forse determinanti per un'interpretazione funzionale della struttura. E' stata infatti notata la presenza di una piccola formazione ovoidale allungata formata da piccoli massi non lavorati posati rozzamente sul terreno, dubitativamente interpretabile come un recinto avente la funzione di delimitare un'apparente sepoltura, disposta E-O. In corrispondenza dell'estremità E-NE dell'ipotetico recinto si è inoltre notata la presenza di un secondo muretto, analogo a quello individuato sul versante N della struttura, il cui corso superiore appare costituito da due lastre piatte di notevoli dimensioni. La formazione portata alla luce è stata prontamente occultata con terriccio e fogliame. Se si ipotizzasse la presenza in antico di un terzo lastrone di copertura, poggiato sulle altre due con orientamento S-N, si potrebbe collocare in questo punto l'entrata della struttura, con orientamento verso E, entrata della quale il piccolo paramento sopra descritto costituirebbe la soglia. La fonte succitata ha riferito, riportando notizie avute da un testimone oculare, che i muretti di terrazzamento risalirebbero, per lo meno nel loro aspetto attuale, al periodo del secondo conflitto mondiale; ha ricordato inoltre che, a quanto riportato, esistevano altre evidenze, analoghe a quella appena descritta, le quali furono per lo più distrutte reimpiegando poi le lastre come materiale di risulta: la notizia, a giudicare dalle dimensioni di alcuni dei blocchi impiegati nei paramenti di cui sopra,sembrerebbe plausibile. La struttura analizzata fu invece risparmiata, non è chiaro per quali motivi: secondo la fonte riportata, perché era "troppo bella"; più verosimilmente, o perché la lastra era troppo grossa da demolire o perché la presenza della croce accese la superstizione dei lavoranti. Il toponimo al quale è riferita l'evidenza non compare sulla cartografia tecnica regionale ma è stato anch'esso riportato dalla fonte: la sua origine andrebbe ricercata nell'esistenza in zona, in età post-medievale, di una piccola manifattura di fittili da costruzione (coppi), manifattura curiosamente gestita da manodopera esclusivamente femminile. La ricognizione condotta su tutta l'area non ha purtroppo restituito alcun frammento ceramico,anche se va notata la quasi nulla visibilità a causa della presenza di abbondante fogliame. Il complesso dei dati riportati consiglierebbe un'urgente prospezione, anche tramite un limitato saggio, stante anche l'elevato rischio di scasso a causa della notevole vicinanza rispetto al tracciato stradale. Sempre da un punto di vista toponomastico, degna d'interesse sembrerebbe inoltre la presenza del non distante toponimo "Messeluco"</core:description>
+    <a-dd:hasFunctionalPurpose rdf:resource="https://w3id.org/arco/resource/FunctionalPurpose/funeraria"/>
+    <arco:regionIdentifier>07</arco:regionIdentifier>
+    <a-cd:hasSurvey rdf:resource="https://w3id.org/arco/resource/ArchaeologicalFieldSurvey/0700263600-survey-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/0700263600-heritage-protection-agency"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/0700263600-photographic-documentation-3"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/0700263600-photographic-documentation-5"/>
+    <foaf:depiction rdf:resource="https://www.sigecweb.beniculturali.it/images/fullsize/ICCD1033327/ICCD12135663_Cupeia%204.JPG"/>
+  </rdf:Description>
+</rdf:RDF>

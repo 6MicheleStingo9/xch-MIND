@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389221">
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389221-bibliography-4"/>
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/595c88a33771f250de9f30a3e3009f5d"/>
+    <dc:identifier>1600389221</dc:identifier>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389221-1"/>
+    <pico:materialAndTechnique>Reperti archeologici/ (pietra calcarea)</pico:materialAndTechnique>
+    <a-cd:historicalInformation>Luigi Corsini, studioso magliese, lo segnalò nel 1972, descrivendolo già in parte rimaneggiato. A differenza degli altri dolmen della Provincia di Lecce, che si contraddistinguono per una struttura “a camera unica” costituita da una sola cella predisposta tramite la sistemazione di ortostati verticali e di un lastrone di copertura, il Dolmen Canali rappresenta un’eccezione, essendo dotato di un parziale corridoio d’ingresso, chiamato dromos, realizzato in pietre sovrapposte, strutturate ad angolo retto con apertura a ovest</a-cd:historicalInformation>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389221-legal-situation-dato-non-disponibile"/>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389221"/>
+    <core:description>La cella è definita da tre ortostati di cui uno monolitico, con pietre di rincalzo, ed è coperto da lastroni, di cui uno originale, in pietra, e l’altro, in materiale metallico, aggiunto successivamente. Il dolmen fu costruito, probabilmente, durante la media età del Bronzo, intorno alla prima metà del II millennio a.C. In assenza di resti umani esso potrebbe essere interpretato come luogo per lo svolgimento di pratiche rituali, di osservazione astronomica, di memoria degli antenati o, infine, come segno tangibile e duraturo delle comunità che lo hanno eretto per celebrare sé stesse</core:description>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/reperti-archeologici-pietra-calcarea"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389221"/>
+    <arco:catalogueNumber>00389221</arco:catalogueNumber>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389221-geometry-1"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389221"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389221-current"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389221-heritage-protection-agency"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389221"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389221-cataloguing-agency"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389221"/>
+    <dc:type>dolmen</dc:type>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389221"/>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <dc:subject>Dolmen Canali</dc:subject>
+    <rdfs:label xml:lang="en">dolmen, Dolmen Canali (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo antico)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, Dolmen Canali (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo antico)</rdfs:label>
+    <dc:title>dolmen</dc:title>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/595c88a33771f250de9f30a3e3009f5d"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389221-bibliography-1"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389221-bibliography-3"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389221-bibliography-2"/>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389221-geometry-point"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16300345_Dolmen_Canali_Maglie.jpg"/>
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1600389221-1"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <arco:uniqueIdentifier>1600389221</arco:uniqueIdentifier>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389221-documentation-1"/>
+    <dc:description>La cella è definita da tre ortostati di cui uno monolitico, con pietre di rincalzo, ed è coperto da lastroni, di cui uno originale, in pietra, e l’altro, in materiale metallico, aggiunto successivamente. Il dolmen fu costruito, probabilmente, durante la media età del Bronzo, intorno alla prima metà del II millennio a.C. In assenza di resti umani esso potrebbe essere interpretato come luogo per lo svolgimento di pratiche rituali, di osservazione astronomica, di memoria degli antenati o, infine, come segno tangibile e duraturo delle comunità che lo hanno eretto per celebrare sé stesse</dc:description>
+    <rdfs:comment>Dolmen Canali</rdfs:comment>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389221-dolmen-canali"/>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/resource/TypeOfContext/contesto-periurbano"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16300345_Dolmen_Canali_Maglie.jpg"/>
+    <a-dd:hasTechnicalStatus rdf:resource="https://w3id.org/arco/resource/CulturalEntityTechnicalStatus/1600389221"/>
+  </rdf:Description>
+</rdf:RDF>

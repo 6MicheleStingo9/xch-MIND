@@ -1,0 +1,142 @@
+# xch-MIND Configuration
+
+# LLM Provider Configuration
+llm:
+  # Supported providers: "gemini", "ollama"
+  provider: "gemini"
+  # provider: "ollama"
+
+  # Gemini Configuration
+  gemini:
+    model: "gemini-2.5-flash"
+    temperature: 0.0
+    max_tokens: 32768 # Increased for models with thinking (e.g. gemini-2.5-flash uses ~7k tokens for reasoning)
+    # API key should be set via GOOGLE_API_KEY environment variable
+
+  # Ollama Configuration (for local/open-source models)
+  ollama:
+    model: "deepseek-r1:1.5b"
+    base_url: "http://localhost:11434"
+    temperature: 0.0
+    max_tokens: 32768
+
+  # Rate Limiting Configuration
+  # Default values are for Gemini Free Tier.
+  # For paid tiers (Tier 1+), set enabled: false or increase limits.
+  rate_limiting:
+    enabled: True # Set to false for paid tiers
+    requests_per_minute: 15 # Free Tier: 15
+    requests_per_day: 20 # Free Tier: 20
+    max_retries: 5
+    base_delay: 2.0
+
+# Paths
+paths:
+  entities_dir: "./entities"
+  ontology_dir: "./ontology"
+  arco_ontology: "./ontology/ArCo.owl"
+  xch_ontology: "./ontology/xch/xch-core.ttl"
+  output_dir: "./output"
+
+# Namespace Configuration
+namespaces:
+  xch: "https://w3id.org/xch-mind/ontology/"
+  xch-res: "https://w3id.org/xch-mind/resource/"
+  arco: "https://w3id.org/arco/ontology/arco/"
+  arco-res: "https://w3id.org/arco/resource/"
+
+# Agent Configuration
+agents:
+  # Orchestrator - coordinates all agents
+  orchestrator:
+    temperature: 0.0 # Deterministic routing decisions
+
+  # Geographic analysis agent
+  geospatial:
+    enabled: true
+    temperature: 0.0 # Deterministic: distance calculations must be precise
+    max_distance_km: 30
+    clustering_threshold: 10
+    # Cluster size constraints (optional - comment out for no limit)
+    min_cluster_size: 2 # Minimum sites per cluster
+    max_cluster_size: 6 # Maximum sites per cluster (prefer more smaller clusters)
+    # Output limits to prevent token overflow
+    max_clusters: 15 # Maximum number of geographic clusters to generate
+    max_pairs: 20 # Maximum number of similarity pairs to propose
+
+  # Chronological analysis agent
+  chronological:
+    enabled: true
+    temperature: 0.0 # Deterministic: period groupings based on data
+    period_tolerance_years: 100
+    # Cluster size constraints (optional - comment out for no limit)
+    min_cluster_size: 2 # Minimum sites per cluster
+    max_cluster_size: 6 # Maximum sites per cluster (chronological clusters can be larger)
+    # Output limits to prevent token overflow
+    max_clusters: 10 # Maximum number of chronological clusters
+    max_pairs: 15 # Maximum number of similarity pairs to propose
+
+  # Typological similarity agent
+  typological:
+    enabled: true
+    temperature: 0.2 # Slight creativity for pattern recognition
+    embedding_similarity_threshold: 0.7 # Threshold for SpaCy cosine similarity validation
+    majority_threshold: 0.6 # 60% of cluster members must share a feature
+    # Cluster size constraints (optional - comment out for no limit)
+    min_cluster_size: 2 # Minimum sites per cluster
+    max_cluster_size: 6 # Maximum sites per cluster
+    # Output limits to prevent token overflow
+    max_clusters: 10 # Maximum number of typological clusters
+    max_pairs: 20 # Maximum number of similarity pairs to propose
+
+  # Path/narrative generation agent
+  narrative:
+    enabled: true
+    temperature: 0.4 # More creativity for engaging narratives
+    max_path_length: 10
+    min_path_length: 3
+    # Output limits to prevent token overflow
+    max_paths: 5 # Maximum number of narrative paths to generate
+
+  # Triple generation agent
+  triple_generator:
+    temperature: 0.0 # Deterministic: RDF output must be valid
+
+  # Validation agent
+  validation:
+    enabled: true
+    temperature: 0.0 # Deterministic: validation must be consistent
+    min_confidence_auto_accept: 0.7
+    require_manual_review_threshold: 0.6
+
+    # Hybrid Confidence Weights
+    llm_weight: 0.7 # 70% confidence from LLM
+    validation_weight: 0.3 # 30% confidence from Algorithmic Validation
+
+# Memory Configuration
+memory:
+  # Minimum confidence threshold for knowledge to be used in cross-run context
+  # and novelty detection. Assertions below this threshold are kept in history
+  # but not injected into LLM prompts and not used to block future proposals.
+  # Aligned with validation.min_confidence_auto_accept (Validated tier).
+  min_confidence: 0.70
+  cluster_overlap_threshold: 0.8
+  path_overlap_threshold: 0.7
+
+# Workflow Configuration
+workflow:
+  max_iterations: 20
+  # Analysis mode:
+  # - "comprehensive": Run ALL analyzers + PathGenerator (maximize insights)
+  # - "autonomous": LLM-guided agent selection, stop when coverage + diversity thresholds met
+  mode: "comprehensive"
+  min_entity_coverage: 0.8 # Stop if 80% of entities are covered (autonomous mode only)
+  min_diversity: 2 # Minimum assertion types required (autonomous mode only)
+
+# Output Configuration
+output:
+  format: "turtle" # turtle, xml, json-ld
+  include_provenance: true
+  include_confidence_scores: true
+  validation_report: true
+  manual_review_queue: true

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-02-23T12:11:28.272922",
+  "total_items": 1,
+  "confidence_range": {
+    "min": 0.68,
+    "max": 0.68
+  },
+  "items": [
+    {
+      "assertion_uri": "https://w3id.org/xch-mind/data/type_cluster_96573bc9",
+      "label": "Typological Cluster - Basic Megalithic Shelters/Monoliths",
+      "description": "These sites represent simpler megalithic arrangements, either a large slab placed on a natural outcrop to form a shelter or a cluster of large standing monoliths, which may not constitute a typical dolmen chamber but hold cultural significance.",
+      "confidence_score": 0.68,
+      "generated_by": "TypologicalAgent",
+      "rdf_type": "TypologicalCluster",
+      "status": "pending_review"
+    }
+  ]
+}

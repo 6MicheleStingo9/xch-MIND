@@ -1,0 +1,68 @@
+{
+  "timing": {
+    "started_at": "2026-02-23T12:07:29.608111",
+    "completed_at": "2026-02-23T12:11:28.273226",
+    "duration_seconds": 238.67
+  },
+  "entities": {
+    "loaded": 53,
+    "processed": 53,
+    "failed": [],
+    "filtered": {}
+  },
+  "assertions": {
+    "total": 264,
+    "by_type": {
+      "typological_cluster": 4,
+      "extracted_feature": 226,
+      "thematic_path": 4,
+      "path_stop": 30
+    }
+  },
+  "triples": {
+    "total": 4234
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 0,
+    "error_details": [],
+    "warning_details": []
+  },
+  "output": {
+    "files": [
+      "output/xch_run_20260223_120729/xch_output_20260223_120729.ttl",
+      "output/xch_run_20260223_120729/review_queue.json"
+    ]
+  },
+  "novelty_filtering": {
+    "geo_analyzer": {
+      "proposed": 32,
+      "novel": 0,
+      "filtered_as_duplicates": 32
+    },
+    "temporal_analyzer": {
+      "proposed": 21,
+      "novel": 0,
+      "filtered_as_duplicates": 21
+    },
+    "type_analyzer": {
+      "proposed": 246,
+      "novel": 230,
+      "filtered_as_duplicates": 16
+    },
+    "path_generator": {
+      "proposed": 35,
+      "novel": 34,
+      "filtered_as_duplicates": 1
+    }
+  },
+  "stats": {
+    "llm_calls": 4,
+    "rate_limit_waits": 0
+  },
+  "run_info": {
+    "run_directory": "output/xch_run_20260223_120729",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash"
+  }
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389231">
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389231"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389231-bibliography-6"/>
+    <a-cd:historicalInformation>Nel 2016, nell’ambito del Progetto di recupero del dolmen da parte del Segretariato Regionale del Ministero dei Beni e delle Attività culturali e del Turismo per la Puglia e della Soprintendenza Archeologia, Belle Arti e Paesaggio per la Città metropolitana di Bari, è stato possibile appurare che la cella funeraria fu riutilizzata più volte per l’accantonamento e la riduzione dei resti degli individui deposti precedentemente</a-cd:historicalInformation>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389231"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389231-1"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/8bb56777c67d0c54d79fa5630c18d095"/>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16298387_Dolmen%20San%20Silvestro.jpg"/>
+    <dc:title>dolmen</dc:title>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389231-bibliography-3"/>
+    <rdfs:label xml:lang="en">dolmen, Dolmen San Silvestro (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo medio)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, Dolmen San Silvestro (PERIODIZZAZIONI/ PROTOSTORIA/ Età del Bronzo/ Età del Bronzo medio)</rdfs:label>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389231"/>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389231"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/8bb56777c67d0c54d79fa5630c18d095"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389231-dolmen-san-silvestro"/>
+    <a-loc:hasCadastralIdentity rdf:resource="https://w3id.org/arco/resource/CadastralIdentity/1600389231-1"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389231-geometry-1"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389231-documentation-1"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389231-legal-situation-dato-non-disponibile"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389231-geometry-point"/>
+    <dc:identifier>1600389231</dc:identifier>
+    <dc:type>dolmen</dc:type>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389231-bibliography-1"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389231-heritage-protection-agency"/>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389231-cataloguing-agency"/>
+    <a-dd:hasMeasurementCollection rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389231"/>
+    <dc:subject>Dolmen San Silvestro</dc:subject>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/resource/TypeOfContext/contesto-rurale"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389231-bibliography-4"/>
+    <dc:format rdf:resource="https://w3id.org/arco/resource/MeasurementCollection/1600389231"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389231-bibliography-5"/>
+    <arco:uniqueIdentifier>1600389231</arco:uniqueIdentifier>
+    <dc:description>All’inizio delle indagini il monumento si presentava come un accumulo di pietre, conosciuto come “Specchia Scalfanario”, a pianta sub-circolare. Al di sotto era il tumulo vero e proprio, a pianta circolare, contenuto entro un perimetro di lastre e blocchi calcarei di medie dimensioni, che rivestiva a sua volta una costruzione a piccole lastre e blocchetti sovrapposti uniti a secco: qui era inglobata la struttura dolmenica a lastroni verticali infissi nel terreno e coperti da altri analoghi disposti orizzontalmente, non direttamente sugli ortostati, ma su una serie di lastre intermedie regolarmente allineate all’interno e aggettanti all’esterno. La struttura si compone di un vano sub-circolare definito “anticella”, che secondo Lo Porto doveva essere a cielo aperto, e che comunicava con la camera funeraria a galleria attraverso un portello praticato, presenta una pianta rettangolare attualmente divisa in due tronconi a causa delle manomissioni a cui è andata incontro nel corso degli anni. In un settore della galleria delimitato da due tramezzi vennero ritrovati resti umani e faunistici e reperti ceramici riferibili al Protoappenninico iniziale (1.800-1.700 a.C.), riferibile alla fase media dell’età del Bronzo</dc:description>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389231-current"/>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <rdfs:comment>Dolmen San Silvestro</rdfs:comment>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <arco:catalogueNumber>00389231</arco:catalogueNumber>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389231-bibliography-2"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072903/ICCD16298387_Dolmen%20San%20Silvestro.jpg"/>
+    <core:description>All’inizio delle indagini il monumento si presentava come un accumulo di pietre, conosciuto come “Specchia Scalfanario”, a pianta sub-circolare. Al di sotto era il tumulo vero e proprio, a pianta circolare, contenuto entro un perimetro di lastre e blocchi calcarei di medie dimensioni, che rivestiva a sua volta una costruzione a piccole lastre e blocchetti sovrapposti uniti a secco: qui era inglobata la struttura dolmenica a lastroni verticali infissi nel terreno e coperti da altri analoghi disposti orizzontalmente, non direttamente sugli ortostati, ma su una serie di lastre intermedie regolarmente allineate all’interno e aggettanti all’esterno. La struttura si compone di un vano sub-circolare definito “anticella”, che secondo Lo Porto doveva essere a cielo aperto, e che comunicava con la camera funeraria a galleria attraverso un portello praticato, presenta una pianta rettangolare attualmente divisa in due tronconi a causa delle manomissioni a cui è andata incontro nel corso degli anni. In un settore della galleria delimitato da due tramezzi vennero ritrovati resti umani e faunistici e reperti ceramici riferibili al Protoappenninico iniziale (1.800-1.700 a.C.), riferibile alla fase media dell’età del Bronzo</core:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rel="http://purl.org/vocab/relationship/"
+    xmlns:npg="http://ns.nature.com/terms/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:crm-owl="http://purl.org/NET/crm-owl#"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:conf="http://lodview.it/conf#"
+    xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+    xmlns:ibc="http://dati.ibc.it/ibc/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:ods="http://lod.xdams.org/ontologies/ods/"
+    xmlns:arco-lite="https://w3id.org/arco/ontology/arco-lite/"
+    xmlns:frbr="http://purl.org/vocab/frbr/core#"
+    xmlns:ti="https://w3id.org/italia/onto/TI/"
+    xmlns:units="http://dbpedia.org/units/"
+    xmlns:a-ip="https://w3id.org/arco/ontology/immovable-property/"
+    xmlns:arco="https://w3id.org/arco/ontology/arco/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:bibleontology="http://bibleontology.com/property#"
+    xmlns:cis="http://dati.beniculturali.it/cis/"
+    xmlns:gml="http://www.opengis.net/gml/"
+    xmlns:core="https://w3id.org/arco/ontology/core/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:cov="https://w3id.org/italia/onto/COV/"
+    xmlns:gn="http://www.geonames.org/ontology#"
+    xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:l0="https://w3id.org/italia/onto/l0/"
+    xmlns:aemetonto="http://aemet.linkeddata.es/ontology/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:po="http://purl.org/ontology/po/"
+    xmlns:a-cat="https://w3id.org/arco/ontology/catalogue/"
+    xmlns:crm="http://erlangen-crm.org/current/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:a-cc="https://w3id.org/arco/ontology/cataloguing-campaign/"
+    xmlns:muninn="http://rdf.muninn-project.org/ontologies/documents#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:a-ce="https://w3id.org/arco/ontology/cultural-event/"
+    xmlns:skos-xl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:bmuseum="http://collection.britishmuseum.org/id/ontology/"
+    xmlns:a-dd="https://w3id.org/arco/ontology/denotative-description/"
+    xmlns:claros="http://purl.org/NET/Claros/vocab#"
+    xmlns:a-cd="https://w3id.org/arco/ontology/context-description/"
+    xmlns:prism21="http://prismstandard.org/namespaces/basic/2.1/"
+    xmlns:a-loc="https://w3id.org/arco/ontology/location/"
+    xmlns:yago="http://dbpedia.org/class/yago/"
+    xmlns:meta="http://example.org/metadata#"
+    xmlns:shoah="http://dati.cdec.it/lod/shoah/"
+    xmlns:arco-res="https://w3id.org/arco/resource/"
+    xmlns:metalex="http://www.metalex.eu/metalex/2008-05-02#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rso="http://www.researchspace.org/ontology/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:crm120111="http://erlangen-crm.org/120111/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:bbc="http://www.bbc.co.uk/ontologies/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ocd="http://dati.camera.it/ocd/"
+    xmlns:oad="http://lod.xdams.org/reload/oad/"
+    xmlns:schema-org="http://schema.org/"
+    xmlns:clv="https://w3id.org/italia/onto/CLV/"
+    xmlns:dbpedia="http://dbpedia.org/resource/"
+    xmlns:cpv="https://w3id.org/italia/onto/CPV/"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:cdoc="http://www.cidoc-crm.org/cidoc-crm#"
+    xmlns:eac-cpf="http://archivi.ibc.regione.emilia-romagna.it/ontology/eac-cpf/"
+    xmlns:pico="http://data.cochrane.org/ontologies/pico/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:lgdo="http://linkedgeodata.org/ontology/capital" > 
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/ArchaeologicalProperty/1600389837">
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389837-documentation-2"/>
+    <arco:uniqueIdentifier>1600389837</arco:uniqueIdentifier>
+    <arco:regionIdentifier>16</arco:regionIdentifier>
+    <a-dd:hasMaterialOrTechnique rdf:resource="https://w3id.org/arco/resource/TechnicalCharacteristic/reperti-archeologici-pietra"/>
+    <a-cd:hasDating rdf:resource="https://w3id.org/arco/resource/Dating/1600389837-1"/>
+    <arco:hasMibacScopeOfProtection rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalScope"/>
+    <core:description>Poco distante dall’uliveto, ci sono tre grandi monoliti risalenti all’epoca micenea, il cui complesso è denominato “I Massi della Vecchia”, plasmato nel tempo da racconti e leggende di orchi, di giganti e di streghe, facenti parte ancora dell’immaginario collettivo popolare. Il nome riporta infatti ad antiche leggende popolari: il termine “Vecchia” indica la Striara (Strega), moglie dell’Orco (lu Nanni Orcu), la quale pronuncia le sue profezie e malocchi al sorgere del sole. Il primo monolite Lu letto te la vecchia (il letto della vecchia) è un enorme masso di forma circolare poggiato su rocce più piccole e, secondo la leggenda, proprio su quel giaciglio la strega era solerte pronunciare le sue predizioni. Nella tradizione popolare la “vecchia” era anche la custode di un tesoro, una acchiatura, costituito da una chioccia e da 7 pulcini d’oro. Chiunque avrebbe potuto impadronirsene sollevando l’enorme masso con un dito nel giorno di San Giovanni, il 24 giugno. Per coloro che erano sprovvisti di forza erculea, sarebbe bastato rispondere a tre domande poste dalla vecchia, senza esitazione e senza mai distogliere i propri occhi dai suoi, pena la pietrificazione, diventando una delle tante pietre disseminate nell’uliveto. A pochi metri di distanza sorge il secondo masso, lu furticeddhu (il fuso) – termine medievale che indica un anello a forma di disco che blocca il filo lavorato nel fuso – con cui la vecchia filava (e recideva) la vita dei contadini. Il racconto riprende la mitologia delle Moire o delle Parche che, iconograficamente, sono rappresentate nell’atto di filare e tagliare il filo della vita. Vicino al monolite detto Lu letto te la vecchia è posto il terzo grande masso a forma di impronta chiamato “Piede di Ercole” che testimonia il passaggio di Ercole, l’unico che avrebbe potuto collocare il fuso nella sua attuale posizione. Nelle vicinanze di quest’ultima roccia è posta una Venere stesa, una Afrodite contadina su cui probabilmente, guardando la cavità posta sopra la pancia, si sedevano le contadine per praticare “la scivolata”, antica usanza per rimanere gravide</core:description>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389837-bibliography-2"/>
+    <a-dd:hasDesignationInTime rdf:resource="https://w3id.org/arco/resource/DesignationInTime/1600389837-i-massi-della-vecchia"/>
+    <a-cd:hasCircumstance rdf:resource="https://w3id.org/arco/resource/Circumstance/1600389837letteratura-orale-non-formalizzata"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072915/ICCD16297612_S216_PiR_ID1104_01.jpg"/>
+    <dcterms:isReferencedBy rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389837"/>
+    <dc:title>dolmen</dc:title>
+    <a-cd:hasSurvey rdf:resource="https://w3id.org/arco/resource/ObservationSurvey/1600389837"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ImmovableCulturalProperty"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389837-heritage-protection-agency"/>
+    <arco:catalogueNumber>00389837</arco:catalogueNumber>
+    <a-cat:isDescribedByCatalogueRecord rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389837"/>
+    <a-dd:hasCulturalPropertyType rdf:resource="https://w3id.org/arco/resource/CulturalPropertyType/7486368e129decf1c2fb77f234e50c4c"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072915/ICCD16297615_S216_PiR_ID1104_03.jpg"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072915/ICCD16297615_S216_PiR_ID1104_03.jpg"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389837-documentation-1"/>
+    <arco:hasCulturalPropertyCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCategory/area-ad-uso-funerario"/>
+    <a-cd:hasDocumentation rdf:resource="https://w3id.org/arco/resource/PhotographicDocumentation/1600389837-documentation-3"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/CulturalProperty"/>
+    <dc:source rdf:resource="https://w3id.org/arco/resource/CatalogueRecordSCAN/1600389837"/>
+    <arco:hasHeritageProtectionAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <core:hasAgentRole rdf:resource="https://w3id.org/arco/resource/AgentRole/1600389837-cataloguing-agency"/>
+    <rdfs:label xml:lang="en">dolmen, I Massi della Vecchia (non determinabile)</rdfs:label>
+    <rdfs:label xml:lang="it">dolmen, I Massi della Vecchia (non determinabile)</rdfs:label>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389837-bibliography-4"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389837-bibliography-1"/>
+    <dc:source rdf:resource="https://catalogo.beniculturali.it/detail/ArchaeologicalProperty/1600389837"/>
+    <a-dd:hasTechnicalStatus rdf:resource="https://w3id.org/arco/resource/CulturalEntityTechnicalStatus/1600389837"/>
+    <a-loc:hasCulturalPropertyAddress rdf:resource="https://w3id.org/arco/resource/Address/92ae9d4935c3c6dff297fa971343fc76"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389837-geometry-point"/>
+    <rdf:type rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+    <dc:subject>I Massi della Vecchia</dc:subject>
+    <rdfs:comment>I Massi della Vecchia</rdfs:comment>
+    <dc:identifier>1600389837</dc:identifier>
+    <a-loc:hasTimeIndexedTypedLocation rdf:resource="https://w3id.org/arco/resource/TimeIndexedTypedLocation/1600389837-current"/>
+    <dc:type>dolmen</dc:type>
+    <arco:hasCulturalPropertyCataloguingCategory rdf:resource="https://w3id.org/arco/resource/CulturalPropertyCataloguingCategory/bene-complesso"/>
+    <dcterms:spatial rdf:resource="https://w3id.org/arco/resource/Address/92ae9d4935c3c6dff297fa971343fc76"/>
+    <a-cd:hasBibliography rdf:resource="https://w3id.org/arco/resource/Bibliography/1600389837-bibliography-3"/>
+    <clv:hasGeometry rdf:resource="https://w3id.org/arco/resource/Geometry/1600389837-geometry-1"/>
+    <foaf:depiction rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072915/ICCD16297614_S216_PiR_ID1104_02.jpg"/>
+    <a-loc:hasTypeOfContext rdf:resource="https://w3id.org/arco/resource/TypeOfContext/contesto-rurale"/>
+    <a-cd:hasLegalSituation rdf:resource="https://w3id.org/arco/resource/LegalSituation/1600389837-legal-situation-dato-non-disponibile"/>
+    <a-cd:hasAuthorshipAttribution rdf:resource="https://w3id.org/arco/resource/CulturalScopeAttribution/1600389837-cultural-scope-attribution-1"/>
+    <pico:materialAndTechnique>Reperti archeologici/ pietra</pico:materialAndTechnique>
+    <dc:description>Poco distante dall’uliveto, ci sono tre grandi monoliti risalenti all’epoca micenea, il cui complesso è denominato “I Massi della Vecchia”, plasmato nel tempo da racconti e leggende di orchi, di giganti e di streghe, facenti parte ancora dell’immaginario collettivo popolare. Il nome riporta infatti ad antiche leggende popolari: il termine “Vecchia” indica la Striara (Strega), moglie dell’Orco (lu Nanni Orcu), la quale pronuncia le sue profezie e malocchi al sorgere del sole. Il primo monolite Lu letto te la vecchia (il letto della vecchia) è un enorme masso di forma circolare poggiato su rocce più piccole e, secondo la leggenda, proprio su quel giaciglio la strega era solerte pronunciare le sue predizioni. Nella tradizione popolare la “vecchia” era anche la custode di un tesoro, una acchiatura, costituito da una chioccia e da 7 pulcini d’oro. Chiunque avrebbe potuto impadronirsene sollevando l’enorme masso con un dito nel giorno di San Giovanni, il 24 giugno. Per coloro che erano sprovvisti di forza erculea, sarebbe bastato rispondere a tre domande poste dalla vecchia, senza esitazione e senza mai distogliere i propri occhi dai suoi, pena la pietrificazione, diventando una delle tante pietre disseminate nell’uliveto. A pochi metri di distanza sorge il secondo masso, lu furticeddhu (il fuso) – termine medievale che indica un anello a forma di disco che blocca il filo lavorato nel fuso – con cui la vecchia filava (e recideva) la vita dei contadini. Il racconto riprende la mitologia delle Moire o delle Parche che, iconograficamente, sono rappresentate nell’atto di filare e tagliare il filo della vita. Vicino al monolite detto Lu letto te la vecchia è posto il terzo grande masso a forma di impronta chiamato “Piede di Ercole” che testimonia il passaggio di Ercole, l’unico che avrebbe potuto collocare il fuso nella sua attuale posizione. Nelle vicinanze di quest’ultima roccia è posta una Venere stesa, una Afrodite contadina su cui probabilmente, guardando la cavità posta sopra la pancia, si sedevano le contadine per praticare “la scivolata”, antica usanza per rimanere gravide</dc:description>
+    <arco:hasCataloguingAgency rdf:resource="https://w3id.org/arco/resource/Agent/176b1ee048b37cfe4fadd5cc16f3fa72"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072915/ICCD16297614_S216_PiR_ID1104_02.jpg"/>
+    <pico:preview rdf:resource="https://sigecweb.beniculturali.it/images/fullsize/ICCD1072915/ICCD16297612_S216_PiR_ID1104_01.jpg"/>
+  </rdf:Description>
+</rdf:RDF>
