@@ -3,7 +3,7 @@ name = "xch-mind"
 version = "0.1.0"
 description = "Multi-agent Interpretive Nexus Discovery for CH Linked Data"
 authors = [
-    {name = "Stingo Michele", email = "stingomichele@gmail.com"}
+    {name = "Stingo Michele", email = "michele.stingo@activadigital.it"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"
