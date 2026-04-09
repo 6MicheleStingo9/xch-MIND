@@ -325,7 +325,8 @@ If you use this system in your research, please cite:
   title = {xch-MIND: Multi-Agent Interpretive Knowledge Graph Augmentation over Cultural Heritage Linked Data},
   author = {Stingo, Michele},
   year = {2026},
-  url = {https://github.com/6MicheleStingo9/xch-MIND}
+  doi = {10.5281/zenodo.19483661},
+  url = {https://doi.org/10.5281/zenodo.19483661}
 }
 ```
 
