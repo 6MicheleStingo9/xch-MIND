@@ -33,7 +33,7 @@ ENV/
 *.swo
 *~
 
-# LaTeX artifactsVedo c
+# LaTeX artifacts
 paper/
 
 # Environment variables
@@ -50,6 +50,13 @@ output/.rate_limit*.json
 output/.knowledge_history*.json
 output/cache_analysis_report.json
 
+# Output_ablation_noval files (keep structure but ignore generated content)
+output_ablation_noval/*.ttl
+output_ablation_noval/*.xml
+output_ablation_noval/.rate_limit*.json
+output_ablation_noval/.knowledge_history*.json
+output_ablation_noval/cache_analysis_report.json
+
 # Testing
 .pytest_cache/
 .coverage
@@ -62,4 +69,5 @@ Thumbs.db
 # Project specific
 *.bak
 *.tmp
+docs/
 w3id/

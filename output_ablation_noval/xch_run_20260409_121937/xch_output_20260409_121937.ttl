@@ -1,0 +1,3489 @@
+@prefix arco: <https://w3id.org/arco/resource/ArchaeologicalProperty/> .
+@prefix data: <https://w3id.org/xch-mind/data/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xch: <https://w3id.org/xch-mind/ontology/> .
+@prefix xch-res: <https://w3id.org/xch-mind/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+data:chrono_cluster_4ed9fed7 a xch:ChronologicalCluster ;
+    rdfs:label "Chronological Cluster - Early Bronze Age" ;
+    dc:description "A phase characterized by the construction of gallery-type and single-chamber dolmens in the Salento region, reflecting a period of ritual and funerary activity." ;
+    prov:used arco:1600389219,
+        arco:1600389220,
+        arco:1600389221,
+        arco:1600389222 ;
+    xch:confidenceScore 0.95 ;
+    xch:endYear -1700 ;
+    xch:generatedAt "2026-04-09T12:19:54.239027"^^xsd:dateTime ;
+    xch:generatedBy xch-res:ChronologicalAgent ;
+    xch:groundedOn arco:1600389219,
+        arco:1600389220,
+        arco:1600389221,
+        arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389219,
+        arco:1600389220,
+        arco:1600389221,
+        arco:1600389222 ;
+    xch:periodLabel "Early Bronze Age" ;
+    xch:reasoningTrace "Sites explicitly labeled as Early Bronze Age in the provided data." ;
+    xch:startYear -2300 ;
+    xch:temporalExtent "-2300 to -1700" ;
+    xch:validatedAt "2026-04-09T12:19:54.239027"^^xsd:dateTime ;
+    xch:validatedBy xch-res:ChronologicalAgent .
+
+data:chrono_cluster_7a9b1ea8 a xch:ChronologicalCluster ;
+    rdfs:label "Chronological Cluster - Neolithic to Chalcolithic" ;
+    dc:description "Early megalithic activity in Sardinia, spanning the transition from the late Neolithic through the Copper Age." ;
+    prov:used arco:2000053213,
+        arco:2000053224,
+        arco:2000053230,
+        arco:2000237971 ;
+    xch:confidenceScore 0.9 ;
+    xch:endYear -2300 ;
+    xch:generatedAt "2026-04-09T12:19:54.239177"^^xsd:dateTime ;
+    xch:generatedBy xch-res:ChronologicalAgent ;
+    xch:groundedOn arco:2000053213,
+        arco:2000053224,
+        arco:2000053230,
+        arco:2000237971 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:2000053213,
+        arco:2000053224,
+        arco:2000053230,
+        arco:2000237971 ;
+    xch:periodLabel "Neolithic to Chalcolithic" ;
+    xch:reasoningTrace "Sites labeled with the V-III millennium BC range." ;
+    xch:startYear -5000 ;
+    xch:temporalExtent "-5000 to -2300" ;
+    xch:validatedAt "2026-04-09T12:19:54.239177"^^xsd:dateTime ;
+    xch:validatedBy xch-res:ChronologicalAgent .
+
+data:chrono_cluster_85d57793 a xch:ChronologicalCluster ;
+    rdfs:label "Chronological Cluster - Middle Bronze Age" ;
+    dc:description "A period of consolidation for megalithic structures, often associated with ritual use and potential astronomical observation." ;
+    prov:used arco:1600389228,
+        arco:1600389230,
+        arco:1600389231,
+        arco:1600389233 ;
+    xch:confidenceScore 0.95 ;
+    xch:endYear -1350 ;
+    xch:generatedAt "2026-04-09T12:19:54.239117"^^xsd:dateTime ;
+    xch:generatedBy xch-res:ChronologicalAgent ;
+    xch:groundedOn arco:1600389228,
+        arco:1600389230,
+        arco:1600389231,
+        arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389228,
+        arco:1600389230,
+        arco:1600389231,
+        arco:1600389233 ;
+    xch:periodLabel "Middle Bronze Age" ;
+    xch:reasoningTrace "Sites explicitly labeled as Middle Bronze Age in the provided data." ;
+    xch:startYear -1700 ;
+    xch:temporalExtent "-1700 to -1350" ;
+    xch:validatedAt "2026-04-09T12:19:54.239117"^^xsd:dateTime ;
+    xch:validatedBy xch-res:ChronologicalAgent .
+
+data:contemp_05b85f35 a xch:TemporalRelation ;
+    rdfs:label "Dolmen Albarosa contemporary with Dolmen Argentina" ;
+    dc:description "Both sites date to Early Bronze Age" ;
+    prov:used arco:1600389219,
+        arco:1600389220 ;
+    xch:confidenceScore 0.95 ;
+    xch:generatedAt "2026-04-09T12:19:54.239265"^^xsd:dateTime ;
+    xch:generatedBy xch-res:ChronologicalAgent ;
+    xch:groundedOn arco:1600389219,
+        arco:1600389220 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Both are identified as Early Bronze Age dolmens in the Salento region." ;
+    xch:source arco:1600389219 ;
+    xch:target arco:1600389220 ;
+    xch:validatedAt "2026-04-09T12:19:54.239265"^^xsd:dateTime ;
+    xch:validatedBy xch-res:ChronologicalAgent .
+
+data:contemp_6555606e a xch:TemporalRelation ;
+    rdfs:label "Dolmen Grotta contemporary with Dolmen Stabile" ;
+    dc:description "Both sites date to Middle Bronze Age" ;
+    prov:used arco:1600389228,
+        arco:1600389233 ;
+    xch:confidenceScore 0.95 ;
+    xch:generatedAt "2026-04-09T12:19:54.239325"^^xsd:dateTime ;
+    xch:generatedBy xch-res:ChronologicalAgent ;
+    xch:groundedOn arco:1600389228,
+        arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Both are explicitly dated to the Middle Bronze Age." ;
+    xch:source arco:1600389228 ;
+    xch:target arco:1600389233 ;
+    xch:validatedAt "2026-04-09T12:19:54.239325"^^xsd:dateTime ;
+    xch:validatedBy xch-res:ChronologicalAgent .
+
+data:contemp_6cee36ed a xch:TemporalRelation ;
+    rdfs:label "Dolmen di Aeddo contemporary with Dolmen di Arzoledda" ;
+    dc:description "Both sites date to Neolithic to Chalcolithic" ;
+    prov:used arco:2000053230,
+        arco:2000237971 ;
+    xch:confidenceScore 0.9 ;
+    xch:generatedAt "2026-04-09T12:19:54.239374"^^xsd:dateTime ;
+    xch:generatedBy xch-res:ChronologicalAgent ;
+    xch:groundedOn arco:2000053230,
+        arco:2000237971 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Both share the same broad V-III millennium BC chronological label." ;
+    xch:source arco:2000237971 ;
+    xch:target arco:2000053230 ;
+    xch:validatedAt "2026-04-09T12:19:54.239374"^^xsd:dateTime ;
+    xch:validatedBy xch-res:ChronologicalAgent .
+
+data:geo_cluster_516115be a xch:GeographicCluster ;
+    rdfs:label "Dolmen di Luras" ;
+    dc:description "Sites sharing the same municipality and geographic coordinates, suggesting a highly localized megalithic concentration." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 40.935833333 ;
+            wgs84:long 9.174722222 ] ;
+    prov:used arco:2000053211,
+        arco:2000053213,
+        arco:2000053224,
+        arco:2000053230 ;
+    xch:confidenceScore 0.95 ;
+    xch:generatedAt "2026-04-09T12:19:44.409968"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:2000053211,
+        arco:2000053213,
+        arco:2000053224,
+        arco:2000053230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:2000053211,
+        arco:2000053213,
+        arco:2000053224,
+        arco:2000053230 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 0.0km" ;
+    xch:regionName "Sardegna" ;
+    xch:validatedAt "2026-04-09T12:19:44.409968"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:geo_cluster_61bc596a a xch:GeographicCluster ;
+    rdfs:label "Dolmen di Birori" ;
+    dc:description "Significant cluster of dolmen sites within the municipality of Birori, indicating a dense funerary landscape." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 40.2640706 ;
+            wgs84:long 8.8167 ] ;
+    prov:used arco:2000237908,
+        arco:2000237909,
+        arco:2000237910,
+        arco:2000237911 ;
+    xch:confidenceScore 0.9 ;
+    xch:generatedAt "2026-04-09T12:19:44.409924"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:2000237908,
+        arco:2000237909,
+        arco:2000237910,
+        arco:2000237911 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:2000237908,
+        arco:2000237909,
+        arco:2000237910,
+        arco:2000237911 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 0.0km" ;
+    xch:regionName "Sardegna" ;
+    xch:validatedAt "2026-04-09T12:19:44.409924"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:geo_cluster_750efeec a xch:GeographicCluster ;
+    rdfs:label "Dolmen del Salento Centrale (Giurdignano-Giuggianello)" ;
+    dc:description "High density of megalithic structures in the municipalities of Giurdignano and Giuggianello, suggesting a shared ritual landscape in the Salento peninsula." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 40.114089594999996 ;
+            wgs84:long 18.41110011175 ] ;
+    prov:used arco:1600389224,
+        arco:1600389227,
+        arco:1600389233,
+        arco:1600389837 ;
+    xch:confidenceScore 0.95 ;
+    xch:generatedAt "2026-04-09T12:19:44.409728"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:1600389224,
+        arco:1600389227,
+        arco:1600389233,
+        arco:1600389837 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389224,
+        arco:1600389227,
+        arco:1600389233,
+        arco:1600389837 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 1.7km" ;
+    xch:regionName "Puglia" ;
+    xch:validatedAt "2026-04-09T12:19:44.409728"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:geo_cluster_7cf45c74 a xch:GeographicCluster ;
+    rdfs:label "Dolmen di Corigliano d'Otranto" ;
+    dc:description "Two sites located in extreme proximity within the same municipality, explicitly described as being near each other." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 40.150919965 ;
+            wgs84:long 18.267294378000003 ] ;
+    prov:used arco:1600389222,
+        arco:1600389223 ;
+    xch:confidenceScore 1.0 ;
+    xch:generatedAt "2026-04-09T12:19:44.410036"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:1600389222,
+        arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389222,
+        arco:1600389223 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 0.0km" ;
+    xch:regionName "Puglia" ;
+    xch:validatedAt "2026-04-09T12:19:44.410036"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:geo_cluster_9f239f1e a xch:GeographicCluster ;
+    rdfs:label "Dolmen di Buddusò" ;
+    dc:description "Group of sites located in the same municipality of Buddusò, likely representing a localized megalithic tradition in the Sardinian interior." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 40.5782379 ;
+            wgs84:long 9.258213 ] ;
+    prov:used arco:2000237916,
+        arco:2000237918,
+        arco:2000237919,
+        arco:2000237920 ;
+    xch:confidenceScore 0.85 ;
+    xch:generatedAt "2026-04-09T12:19:44.409881"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:2000237916,
+        arco:2000237918,
+        arco:2000237919,
+        arco:2000237920 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:2000237916,
+        arco:2000237918,
+        arco:2000237919,
+        arco:2000237920 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 0.0km" ;
+    xch:regionName "Sardegna" ;
+    xch:validatedAt "2026-04-09T12:19:44.409881"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:geo_cluster_f49010e0 a xch:GeographicCluster ;
+    rdfs:label "Dolmen di Matta Larentu (Suni)" ;
+    dc:description "Sites sharing the same specific locality name and municipality, indicating a clear spatial grouping." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 40.2808353 ;
+            wgs84:long 8.5501957 ] ;
+    prov:used arco:2000237939,
+        arco:2000238022,
+        arco:2000238023 ;
+    xch:confidenceScore 0.95 ;
+    xch:generatedAt "2026-04-09T12:19:44.410002"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:2000237939,
+        arco:2000238022,
+        arco:2000238023 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:2000237939,
+        arco:2000238022,
+        arco:2000238023 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 0.0km" ;
+    xch:regionName "Sardegna" ;
+    xch:validatedAt "2026-04-09T12:19:44.410002"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:geo_cluster_fdc854b2 a xch:GeographicCluster ;
+    rdfs:label "Dolmen di Bisceglie" ;
+    dc:description "Concentration of dolmen structures within the same municipality, sharing similar architectural characteristics and historical exploration contexts." ;
+    geo:hasCentroid [ a geo:Point ;
+            wgs84:lat 41.206398441666664 ;
+            wgs84:long 16.493216549 ] ;
+    prov:used arco:1600027066,
+        arco:1600389219,
+        arco:1600389229 ;
+    xch:confidenceScore 0.9 ;
+    xch:generatedAt "2026-04-09T12:19:44.409810"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:1600027066,
+        arco:1600389219,
+        arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600027066,
+        arco:1600389219,
+        arco:1600389229 ;
+    xch:reasoningTrace "LLM proposal validated. Radius: 3.9km" ;
+    xch:regionName "Puglia" ;
+    xch:validatedAt "2026-04-09T12:19:44.409810"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:near_134b8c4d a xch:SpatialRelation ;
+    rdfs:label "Dolmen di Corrizzola near to Dolmen I di Arbu" ;
+    dc:description "Birori" ;
+    prov:used arco:2000237909,
+        arco:2000237910 ;
+    xch:confidenceScore 0.96 ;
+    xch:distanceKm 0.0 ;
+    xch:generatedAt "2026-04-09T12:19:44.410185"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:2000237909,
+        arco:2000237910 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Shared municipality and identical coordinates, suggesting they are part of the same archaeological site complex.. Distance: 0.0km" ;
+    xch:source arco:2000237910 ;
+    xch:target arco:2000237909 ;
+    xch:validatedAt "2026-04-09T12:19:44.410185"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:near_8dd0c7b1 a xch:SpatialRelation ;
+    rdfs:label "Dolmen Caroppo 1 near to Dolmen Caroppo 2" ;
+    dc:description "Corigliano D'otranto" ;
+    prov:used arco:1600389222,
+        arco:1600389223 ;
+    xch:confidenceScore 1.0 ;
+    xch:distanceKm 0.004530977227848253 ;
+    xch:generatedAt "2026-04-09T12:19:44.410098"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:1600389222,
+        arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Explicitly described as being located a few meters apart.. Distance: 0.0km" ;
+    xch:source arco:1600389222 ;
+    xch:target arco:1600389223 ;
+    xch:validatedAt "2026-04-09T12:19:44.410098"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:near_aaf85dcf a xch:SpatialRelation ;
+    rdfs:label "Dolmen 1 di Matta Larentu near to Dolmen 2 di Matta Larentu" ;
+    dc:description "Suni" ;
+    prov:used arco:2000238022,
+        arco:2000238023 ;
+    xch:confidenceScore 1.0 ;
+    xch:distanceKm 0.0 ;
+    xch:generatedAt "2026-04-09T12:19:44.410213"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:2000238022,
+        arco:2000238023 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Identical coordinates and shared locality name (Matta Larentu).. Distance: 0.0km" ;
+    xch:source arco:2000238023 ;
+    xch:target arco:2000238022 ;
+    xch:validatedAt "2026-04-09T12:19:44.410213"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:near_fb498e0e a xch:SpatialRelation ;
+    rdfs:label "Dolmen Chiancuse near to Dolmen Grassi" ;
+    dc:description "Giurdignano" ;
+    prov:used arco:1600389224,
+        arco:1600389227 ;
+    xch:confidenceScore 0.88 ;
+    xch:distanceKm 0.3890803960298338 ;
+    xch:generatedAt "2026-04-09T12:19:44.410148"^^xsd:dateTime ;
+    xch:generatedBy xch-res:GeoSpatialAgent ;
+    xch:groundedOn arco:1600389224,
+        arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Both located in the same municipality with shared cultural landscape characteristics.. Distance: 0.4km" ;
+    xch:source arco:1600389224 ;
+    xch:target arco:1600389227 ;
+    xch:validatedAt "2026-04-09T12:19:44.410148"^^xsd:dateTime ;
+    xch:validatedBy xch-res:GeoSpatialAgent .
+
+data:similar_3d257955 a xch:TypologicalRelation ;
+    rdfs:label "Dolmen Placa similar to Dolmen Stabile" ;
+    dc:description "Cosine similarity: 0.948, Hybrid: 0.900" ;
+    prov:used arco:1600389233,
+        arco:1600389234 ;
+    xch:confidenceScore 0.9 ;
+    xch:generatedAt "2026-04-09T12:20:43.888556"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233,
+        arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Both share unique symbolic engravings on the cover slabs." ;
+    xch:similarityScore 0.9483 ;
+    xch:source arco:1600389234 ;
+    xch:target arco:1600389233 ;
+    xch:validatedAt "2026-04-09T12:20:43.888556"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:similar_86365f1e a xch:TypologicalRelation ;
+    rdfs:label "Dolmen Albarosa similar to Dolmen La Chianca" ;
+    dc:description "Cosine similarity: 0.968, Hybrid: 0.980" ;
+    prov:used arco:1600389219,
+        arco:1600389229 ;
+    xch:confidenceScore 0.98 ;
+    xch:generatedAt "2026-04-09T12:20:43.888523"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219,
+        arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Both are classic examples of the gallery dolmen type with associated tumuli." ;
+    xch:similarityScore 0.9679 ;
+    xch:source arco:1600389219 ;
+    xch:target arco:1600389229 ;
+    xch:validatedAt "2026-04-09T12:20:43.888523"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:type_cluster_30fe6841 a xch:TypologicalCluster ;
+    rdfs:label "Typological Cluster - Gallery Dolmens with Corridors" ;
+    dc:description "These sites share a more complex architectural layout involving a distinct entrance corridor." ;
+    prov:used arco:1600389188,
+        arco:1600389219,
+        arco:1600389229 ;
+    xch:confidenceScore 0.9 ;
+    xch:definingFeature "corridor",
+        "funerary",
+        "gallery",
+        "peri urban",
+        "tumulus" ;
+    xch:generatedAt "2026-04-09T12:20:43.888422"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188,
+        arco:1600389219,
+        arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389188,
+        arco:1600389219,
+        arco:1600389229 ;
+    xch:reasoningTrace "Shared features: ['peri urban', 'funerary', 'gallery', 'tumulus', 'corridor']" ;
+    xch:typologyLabel "Gallery Dolmens with Corridors" ;
+    xch:validatedAt "2026-04-09T12:20:43.888422"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:type_cluster_3f526ab8 a xch:TypologicalCluster ;
+    rdfs:label "Typological Cluster - Ritual Sites with Cup Marks" ;
+    dc:description "Presence of symbolic cup marks suggests a specific ritual or astronomical function." ;
+    prov:used arco:1600389233,
+        arco:1600389234 ;
+    xch:confidenceScore 0.85 ;
+    xch:definingFeature "cover slab",
+        "cup mark",
+        "rural",
+        "single chamber",
+        "uprights" ;
+    xch:generatedAt "2026-04-09T12:20:43.888452"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233,
+        arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389233,
+        arco:1600389234 ;
+    xch:reasoningTrace "Shared features: ['rural', 'single chamber', 'cover slab', 'cup mark', 'uprights']" ;
+    xch:typologyLabel "Ritual Sites with Cup Marks" ;
+    xch:validatedAt "2026-04-09T12:20:43.888452"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:type_cluster_56d75033 a xch:TypologicalCluster ;
+    rdfs:label "Typological Cluster - Salento Single-Chamber Dolmens" ;
+    dc:description "These sites represent the classic Salento typology characterized by a simple, non-articulated chamber." ;
+    prov:used arco:1600389223,
+        arco:1600389226,
+        arco:1600389235,
+        arco:1600389236 ;
+    xch:confidenceScore 0.95 ;
+    xch:definingFeature "ceremonial",
+        "cover slab",
+        "funerary",
+        "peri urban",
+        "single chamber",
+        "uprights" ;
+    xch:generatedAt "2026-04-09T12:20:43.888374"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223,
+        arco:1600389226,
+        arco:1600389235,
+        arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:includesSite arco:1600389223,
+        arco:1600389226,
+        arco:1600389235,
+        arco:1600389236 ;
+    xch:reasoningTrace "Shared features: ['ceremonial', 'single chamber', 'peri urban', 'funerary', 'cover slab']" ;
+    xch:typologyLabel "Salento Single-Chamber Dolmens" ;
+    xch:validatedAt "2026-04-09T12:20:43.888374"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_00a64c5e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "elliptical pit (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.77 ;
+    xch:featureLabel "elliptical pit" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.563009"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563009"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_010d6bed a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Caroppo 2" ;
+    prov:used arco:1600389223 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389223 ;
+    xch:generatedAt "2026-04-09T12:20:45.562454"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562454"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_01402e9d a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.562950"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562950"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_022daa30 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Caroppo 1" ;
+    prov:used arco:1600389222 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389222 ;
+    xch:generatedAt "2026-04-09T12:20:45.562795"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562795"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_044287f6 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389228 ;
+    xch:generatedAt "2026-04-09T12:20:45.562641"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562641"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_068601fb a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.563126"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563126"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_06b97793 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Argentina" ;
+    prov:used arco:1600389220 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389220 ;
+    xch:generatedAt "2026-04-09T12:20:45.562701"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389220 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562701"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_0703134c a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Torre Ospina" ;
+    prov:used arco:1600389238 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389238 ;
+    xch:generatedAt "2026-04-09T12:20:45.563243"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389238 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563243"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_07038b77 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.563102"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563102"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_0a2ce351 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.562660"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562660"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_0ade6a8d a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.562460"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562460"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_0cf402ce a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "gallery (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:confidenceScore 0.77 ;
+    xch:featureLabel "gallery" ;
+    xch:featureOf arco:1600389219 ;
+    xch:generatedAt "2026-04-09T12:20:45.562878"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562878"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_0d27435b a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen dell’Accettula" ;
+    prov:used arco:1600389226 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389226 ;
+    xch:generatedAt "2026-04-09T12:20:45.562603"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389226 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562603"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_0d88927c a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.562965"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562965"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1256f008 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Caroppo 2" ;
+    prov:used arco:1600389223 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389223 ;
+    xch:generatedAt "2026-04-09T12:20:45.562710"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562710"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_150ba491 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "tumulus (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:confidenceScore 0.78 ;
+    xch:featureLabel "tumulus" ;
+    xch:featureOf arco:1600389219 ;
+    xch:generatedAt "2026-04-09T12:20:45.562917"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562917"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_155d4a7e a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Torre Ospina" ;
+    prov:used arco:1600389238 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389238 ;
+    xch:generatedAt "2026-04-09T12:20:45.562872"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389238 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562872"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1697c059 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Caroppo 1" ;
+    prov:used arco:1600389222 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389222 ;
+    xch:generatedAt "2026-04-09T12:20:45.562954"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562954"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1a6da812 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.563227"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563227"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1a747cf0 a xch:ExtractedFeature ;
+    rdfs:label "olive grove (contextual)" ;
+    dc:description "Extracted contextual feature from I Massi della Vecchia" ;
+    prov:used arco:1600389837 ;
+    xch:confidenceScore 0.72 ;
+    xch:featureLabel "olive grove" ;
+    xch:featureOf arco:1600389837 ;
+    xch:generatedAt "2026-04-09T12:20:45.563253"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389837 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563253"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1b5efbbd a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389188 ;
+    xch:generatedAt "2026-04-09T12:20:45.562852"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562852"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1bf3a3b6 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "corridor (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "corridor" ;
+    xch:featureOf arco:1600389219 ;
+    xch:generatedAt "2026-04-09T12:20:45.562891"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562891"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1cb248a5 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Madonna di Cristo" ;
+    prov:used arco:1600389230 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389230 ;
+    xch:generatedAt "2026-04-09T12:20:45.562745"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562745"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1d141ce5 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.563212"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563212"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1df10058 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Piedi Grandi" ;
+    prov:used arco:1600389237 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389237 ;
+    xch:generatedAt "2026-04-09T12:20:45.562668"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389237 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562668"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_1e1f95e7 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Madonna di Cristo" ;
+    prov:used arco:1600389230 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389230 ;
+    xch:generatedAt "2026-04-09T12:20:45.562493"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562493"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_20ceafe8 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Caroppo 2" ;
+    prov:used arco:1600389223 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389223 ;
+    xch:generatedAt "2026-04-09T12:20:45.562544"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562544"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_21ce007f a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.562749"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562749"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_24538884 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.563207"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563207"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_24b7bb18 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen dell’Accettula" ;
+    prov:used arco:1600389226 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389226 ;
+    xch:generatedAt "2026-04-09T12:20:45.562781"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389226 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562781"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_2b4a1a36 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.562608"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562608"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_2c6525ec a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:confidenceScore 0.78 ;
+    xch:featureLabel "chamber" ;
+    xch:featureOf arco:1600389188 ;
+    xch:generatedAt "2026-04-09T12:20:45.563178"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563178"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_2d12598b a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Argentina" ;
+    prov:used arco:1600389220 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389220 ;
+    xch:generatedAt "2026-04-09T12:20:45.562945"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389220 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562945"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_2e283fe5 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.562596"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562596"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_30724c84 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389228 ;
+    xch:generatedAt "2026-04-09T12:20:45.562818"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562818"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_322d5111 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389219 ;
+    xch:generatedAt "2026-04-09T12:20:45.562940"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562940"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_32d74543 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.562447"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562447"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_340e8240 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.562637"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562637"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_3644af02 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.562535"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562535"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_36653a8b a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from I Massi della Vecchia" ;
+    prov:used arco:1600389837 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389837 ;
+    xch:generatedAt "2026-04-09T12:20:45.563201"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389837 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563201"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_376ac126 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Caroppo 2" ;
+    prov:used arco:1600389223 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389223 ;
+    xch:generatedAt "2026-04-09T12:20:45.562616"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562616"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_389e6311 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.562723"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562723"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_39c5bc57 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Piedi Grandi" ;
+    prov:used arco:1600389237 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389237 ;
+    xch:generatedAt "2026-04-09T12:20:45.562856"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389237 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562856"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_39f69403 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.562591"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562591"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_40ea31ac a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Madonna di Cristo" ;
+    prov:used arco:1600389230 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389230 ;
+    xch:generatedAt "2026-04-09T12:20:45.562655"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562655"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_4109705e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.562511"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562511"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_43746096 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.562868"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562868"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_46a443e3 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.562706"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562706"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_478c5f0f a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.562834"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562834"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_4bcaa03a a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Casiglio" ;
+    prov:used arco:1600389240 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389240 ;
+    xch:generatedAt "2026-04-09T12:20:45.562620"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389240 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562620"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_5109b5d6 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.562971"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562971"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_51959332 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen dell’Accettula" ;
+    prov:used arco:1600389226 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389226 ;
+    xch:generatedAt "2026-04-09T12:20:45.562428"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389226 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562428"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_5651c403 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Madonna di Cristo" ;
+    prov:used arco:1600389230 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389230 ;
+    xch:generatedAt "2026-04-09T12:20:45.562838"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562838"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_56c121bc a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.562574"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562574"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_57f5b7f6 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389219 ;
+    xch:generatedAt "2026-04-09T12:20:45.562696"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562696"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_5a3ccb49 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from area ad uso funerario" ;
+    prov:used arco:2000241278 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:2000241278 ;
+    xch:generatedAt "2026-04-09T12:20:45.562633"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:2000241278 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562633"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_5c15a34b a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.562570"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562570"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_5e9586c6 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.562790"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562790"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_5ef8ed6b a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cup mark (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.77 ;
+    xch:featureLabel "cup mark" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.563259"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563259"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_611b215e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.562673"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562673"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_615de172 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen località Cupeia" ;
+    prov:used arco:0700263600 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:0700263600 ;
+    xch:generatedAt "2026-04-09T12:20:45.562727"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:0700263600 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562727"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_637fceb9 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.562983"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562983"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_65813d36 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.562646"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562646"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_65c4443a a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen dell’Accettula" ;
+    prov:used arco:1600389226 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389226 ;
+    xch:generatedAt "2026-04-09T12:20:45.562691"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389226 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562691"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_69d6b000 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389229 ;
+    xch:generatedAt "2026-04-09T12:20:45.562830"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562830"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_734765ba a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Torre Ospina" ;
+    prov:used arco:1600389238 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389238 ;
+    xch:generatedAt "2026-04-09T12:20:45.562761"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389238 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562761"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_785db385 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389229 ;
+    xch:generatedAt "2026-04-09T12:20:45.562988"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562988"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_786ff430 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389219 ;
+    xch:generatedAt "2026-04-09T12:20:45.562786"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562786"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_78dd4dfc a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389228 ;
+    xch:generatedAt "2026-04-09T12:20:45.562470"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562470"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_792d65cc a xch:ExtractedFeature ;
+    rdfs:label "limestone (material)" ;
+    dc:description "Extracted material feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.79 ;
+    xch:featureLabel "limestone" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.563020"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 4 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563020"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_79c4402e a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Caroppo 1" ;
+    prov:used arco:1600389222 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389222 ;
+    xch:generatedAt "2026-04-09T12:20:45.563107"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563107"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_7ad93773 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Torre Ospina" ;
+    prov:used arco:1600389238 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389238 ;
+    xch:generatedAt "2026-04-09T12:20:45.562685"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389238 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562685"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_811c3bbc a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from I Massi della Vecchia" ;
+    prov:used arco:1600389837 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389837 ;
+    xch:generatedAt "2026-04-09T12:20:45.562826"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389837 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562826"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_82c6df02 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.562629"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562629"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_83db80c1 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ceremonial (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.73 ;
+    xch:featureLabel "ceremonial" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.562774"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562774"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_862062dc a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Casiglio" ;
+    prov:used arco:1600389240 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389240 ;
+    xch:generatedAt "2026-04-09T12:20:45.562804"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389240 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562804"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_87162d98 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:confidenceScore 0.78 ;
+    xch:featureLabel "chamber" ;
+    xch:featureOf arco:1600389231 ;
+    xch:generatedAt "2026-04-09T12:20:45.563183"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563183"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_88d3c63c a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.563140"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563140"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_8ae9b7ef a xch:ExtractedFeature ;
+    rdfs:label "limestone (material)" ;
+    dc:description "Extracted material feature from area ad uso funerario" ;
+    prov:used arco:2000241278 ;
+    xch:confidenceScore 0.79 ;
+    xch:featureLabel "limestone" ;
+    xch:featureOf arco:2000241278 ;
+    xch:generatedAt "2026-04-09T12:20:45.563027"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:2000241278 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 4 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563027"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_8b68c324 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.562481"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562481"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_8cd42269 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "corridor (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "corridor" ;
+    xch:featureOf arco:1600389229 ;
+    xch:generatedAt "2026-04-09T12:20:45.562901"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562901"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_8fba02b5 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.562813"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562813"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9060e95e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen località Cupeia" ;
+    prov:used arco:0700263600 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:0700263600 ;
+    xch:generatedAt "2026-04-09T12:20:45.562553"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:0700263600 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562553"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_90e26060 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.562719"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562719"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9185cf5e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "corridor (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "corridor" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.562906"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562906"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_93e36d72 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "tumulus (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:confidenceScore 0.78 ;
+    xch:featureLabel "tumulus" ;
+    xch:featureOf arco:1600389231 ;
+    xch:generatedAt "2026-04-09T12:20:45.562934"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562934"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_956a29ae a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "corridor (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "corridor" ;
+    xch:featureOf arco:1600389188 ;
+    xch:generatedAt "2026-04-09T12:20:45.562911"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562911"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_95cd3b47 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.562466"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562466"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9646eb73 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Caroppo 1" ;
+    prov:used arco:1600389222 ;
+    xch:confidenceScore 0.78 ;
+    xch:featureLabel "chamber" ;
+    xch:featureOf arco:1600389222 ;
+    xch:generatedAt "2026-04-09T12:20:45.563174"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563174"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9853f86b a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "gallery (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:confidenceScore 0.77 ;
+    xch:featureLabel "gallery" ;
+    xch:featureOf arco:1600389229 ;
+    xch:generatedAt "2026-04-09T12:20:45.562883"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562883"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9949bad2 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389228 ;
+    xch:generatedAt "2026-04-09T12:20:45.562566"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562566"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9b437782 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389188 ;
+    xch:generatedAt "2026-04-09T12:20:45.563217"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563217"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9d7f9b33 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.562651"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562651"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9e50b0cf a xch:ExtractedFeature ;
+    rdfs:label "limestone (material)" ;
+    dc:description "Extracted material feature from Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:confidenceScore 0.79 ;
+    xch:featureLabel "limestone" ;
+    xch:featureOf arco:1600389231 ;
+    xch:generatedAt "2026-04-09T12:20:45.563033"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 4 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563033"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_9f78ce15 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.562624"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562624"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_a1d4708e a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen località Cupeia" ;
+    prov:used arco:0700263600 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:0700263600 ;
+    xch:generatedAt "2026-04-09T12:20:45.563194"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:0700263600 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563194"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_aa6e5ba8 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.563112"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563112"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_aaa6dd26 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.562681"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562681"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_aaa88ff9 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.563116"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563116"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ab31a24f a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.562583"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562583"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ae421f4a a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.562506"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562506"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_af1aca2b a xch:ExtractedFeature ;
+    rdfs:label "limestone (material)" ;
+    dc:description "Extracted material feature from Dolmen Argentina" ;
+    prov:used arco:1600389220 ;
+    xch:confidenceScore 0.79 ;
+    xch:featureLabel "limestone" ;
+    xch:featureOf arco:1600389220 ;
+    xch:generatedAt "2026-04-09T12:20:45.563015"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389220 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 4 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563015"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_b0d3e55a a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389231 ;
+    xch:generatedAt "2026-04-09T12:20:45.562757"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562757"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_b20c0d74 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389231 ;
+    xch:generatedAt "2026-04-09T12:20:45.562677"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562677"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_b467c50e a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ceremonial (functional)" ;
+    dc:description "Extracted functional feature from Dolmen dell’Accettula" ;
+    prov:used arco:1600389226 ;
+    xch:confidenceScore 0.73 ;
+    xch:featureLabel "ceremonial" ;
+    xch:featureOf arco:1600389226 ;
+    xch:generatedAt "2026-04-09T12:20:45.562766"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389226 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562766"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_b47b2548 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Madonna di Cristo" ;
+    prov:used arco:1600389230 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389230 ;
+    xch:generatedAt "2026-04-09T12:20:45.562578"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562578"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_b5bef723 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from I Massi della Vecchia" ;
+    prov:used arco:1600389837 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389837 ;
+    xch:generatedAt "2026-04-09T12:20:45.563132"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389837 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563132"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_b71c0142 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.562561"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562561"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_bc0676e8 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Torre Ospina" ;
+    prov:used arco:1600389238 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389238 ;
+    xch:generatedAt "2026-04-09T12:20:45.563146"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389238 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563146"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_be451c29 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Torre Ospina" ;
+    prov:used arco:1600389238 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389238 ;
+    xch:generatedAt "2026-04-09T12:20:45.562516"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389238 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562516"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_bebcc8f7 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Casiglio" ;
+    prov:used arco:1600389240 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389240 ;
+    xch:generatedAt "2026-04-09T12:20:45.562714"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389240 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562714"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_bebd78ee a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Madonna di Cristo" ;
+    prov:used arco:1600389230 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389230 ;
+    xch:generatedAt "2026-04-09T12:20:45.562996"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562996"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_c6dab147 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.562863"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562863"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_cb0461a0 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389228 ;
+    xch:generatedAt "2026-04-09T12:20:45.562976"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562976"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_cdb312ff a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Piedi Grandi" ;
+    prov:used arco:1600389237 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389237 ;
+    xch:generatedAt "2026-04-09T12:20:45.562502"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389237 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562502"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ce8378e8 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389228 ;
+    xch:generatedAt "2026-04-09T12:20:45.563121"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563121"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_d0553f39 a xch:ExtractedFeature ;
+    rdfs:label "peri urban (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Caroppo 2" ;
+    prov:used arco:1600389223 ;
+    xch:confidenceScore 0.82 ;
+    xch:featureLabel "peri urban" ;
+    xch:featureOf arco:1600389223 ;
+    xch:generatedAt "2026-04-09T12:20:45.562959"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 11 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562959"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_d085a8cd a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389229 ;
+    xch:generatedAt "2026-04-09T12:20:45.562740"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562740"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_d546d6f2 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Piedi Grandi" ;
+    prov:used arco:1600389237 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389237 ;
+    xch:generatedAt "2026-04-09T12:20:45.563222"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389237 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563222"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_d6982d84 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.562497"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562497"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_d8cbb1bb a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen di Montalbano" ;
+    prov:used arco:1600389232 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389232 ;
+    xch:generatedAt "2026-04-09T12:20:45.562842"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389232 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562842"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_daaf95eb a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Piedi Grandi" ;
+    prov:used arco:1600389237 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389237 ;
+    xch:generatedAt "2026-04-09T12:20:45.562587"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389237 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562587"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_de871f95 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from area ad uso funerario" ;
+    prov:used arco:2000241278 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:2000241278 ;
+    xch:generatedAt "2026-04-09T12:20:45.562732"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:2000241278 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562732"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_df5ebf7c a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Casiglio" ;
+    prov:used arco:1600389240 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389240 ;
+    xch:generatedAt "2026-04-09T12:20:45.563188"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389240 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563188"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_df7434b0 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Caroppo 1" ;
+    prov:used arco:1600389222 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389222 ;
+    xch:generatedAt "2026-04-09T12:20:45.562539"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562539"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e0d34d88 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "elliptical pit (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Argentina" ;
+    prov:used arco:1600389220 ;
+    xch:confidenceScore 0.77 ;
+    xch:featureLabel "elliptical pit" ;
+    xch:featureOf arco:1600389220 ;
+    xch:generatedAt "2026-04-09T12:20:45.563003"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389220 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563003"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e32109f5 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Caroppo 1" ;
+    prov:used arco:1600389222 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389222 ;
+    xch:generatedAt "2026-04-09T12:20:45.562612"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389222 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562612"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e3213034 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389188 ;
+    xch:generatedAt "2026-04-09T12:20:45.562753"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562753"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e53aefc4 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "funerary (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.85 ;
+    xch:featureLabel "funerary" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.562736"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 17 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562736"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e78a8ced a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.562476"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562476"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e87c9308 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from area ad uso funerario" ;
+    prov:used arco:2000241278 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:2000241278 ;
+    xch:generatedAt "2026-04-09T12:20:45.562557"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:2000241278 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562557"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_e8b474b6 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ceremonial (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.73 ;
+    xch:featureLabel "ceremonial" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.562770"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562770"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_eb5697fa a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "corridor (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Argentina" ;
+    prov:used arco:1600389220 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "corridor" ;
+    xch:featureOf arco:1600389220 ;
+    xch:generatedAt "2026-04-09T12:20:45.562896"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389220 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562896"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ebbe8d2a a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.562809"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562809"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ec6cface a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "single chamber (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "single chamber" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.562520"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 15 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562520"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ed089721 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Caroppo 2" ;
+    prov:used arco:1600389223 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389223 ;
+    xch:generatedAt "2026-04-09T12:20:45.562800"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389223 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562800"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ed125f48 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "astronomical observation (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:confidenceScore 0.76 ;
+    xch:featureLabel "astronomical observation" ;
+    xch:featureOf arco:1600389224 ;
+    xch:generatedAt "2026-04-09T12:20:45.563155"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563155"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_eeb13882 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.563236"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563236"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_eef2daff a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "astronomical observation (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.76 ;
+    xch:featureLabel "astronomical observation" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.563160"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563160"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_efab1704 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389231 ;
+    xch:generatedAt "2026-04-09T12:20:45.563232"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563232"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f083afe8 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "ritual (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Piedi Grandi" ;
+    prov:used arco:1600389237 ;
+    xch:confidenceScore 0.81 ;
+    xch:featureLabel "ritual" ;
+    xch:featureOf arco:1600389237 ;
+    xch:generatedAt "2026-04-09T12:20:45.563136"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389237 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 10 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563136"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f1fa6ad3 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "astronomical observation (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:confidenceScore 0.76 ;
+    xch:featureLabel "astronomical observation" ;
+    xch:featureOf arco:1600389234 ;
+    xch:generatedAt "2026-04-09T12:20:45.563169"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563169"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f2f9f0b0 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "tumulus (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:confidenceScore 0.78 ;
+    xch:featureLabel "tumulus" ;
+    xch:featureOf arco:1600389229 ;
+    xch:generatedAt "2026-04-09T12:20:45.562929"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 3 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562929"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f377bd90 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "upright (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "upright" ;
+    xch:featureOf arco:1600389188 ;
+    xch:generatedAt "2026-04-09T12:20:45.562664"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562664"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f49ca84e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cup mark (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:confidenceScore 0.77 ;
+    xch:featureLabel "cup mark" ;
+    xch:featureOf arco:1600389233 ;
+    xch:generatedAt "2026-04-09T12:20:45.563263"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563263"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f6f12332 a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "astronomical observation (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:confidenceScore 0.76 ;
+    xch:featureLabel "astronomical observation" ;
+    xch:featureOf arco:1600389236 ;
+    xch:generatedAt "2026-04-09T12:20:45.563164"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563164"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f7bad38e a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen dell’Accettula" ;
+    prov:used arco:1600389226 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389226 ;
+    xch:generatedAt "2026-04-09T12:20:45.562530"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389226 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562530"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_f895a454 a xch:ExtractedFeature ;
+    rdfs:label "stone (material)" ;
+    dc:description "Extracted material feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "stone" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.562822"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted material feature shared by 20 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562822"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_fa106f46 a xch:ExtractedFeature ;
+    rdfs:label "olive grove (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Gurgulante" ;
+    prov:used arco:1600389235 ;
+    xch:confidenceScore 0.72 ;
+    xch:featureLabel "olive grove" ;
+    xch:featureOf arco:1600389235 ;
+    xch:generatedAt "2026-04-09T12:20:45.563249"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389235 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 2 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563249"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ff049046 a xch:ExtractedFeature ;
+    rdfs:label "rural (contextual)" ;
+    dc:description "Extracted contextual feature from Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:confidenceScore 0.83 ;
+    xch:featureLabel "rural" ;
+    xch:featureOf arco:1600389227 ;
+    xch:generatedAt "2026-04-09T12:20:45.563198"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted contextual feature shared by 12 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563198"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ff0548dc a xch:ExtractedFeature,
+        xch:FunctionalFeature ;
+    rdfs:label "astronomical observation (functional)" ;
+    dc:description "Extracted functional feature from Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:confidenceScore 0.76 ;
+    xch:featureLabel "astronomical observation" ;
+    xch:featureOf arco:1600389221 ;
+    xch:generatedAt "2026-04-09T12:20:45.563151"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted functional feature shared by 5 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.563151"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:feature_ffaa4f71 a xch:ArchitecturalFeature,
+        xch:ExtractedFeature ;
+    rdfs:label "cover slab (architectural)" ;
+    dc:description "Extracted architectural feature from Dolmen Cosi" ;
+    prov:used arco:1600389225 ;
+    xch:confidenceScore 0.9 ;
+    xch:featureLabel "cover slab" ;
+    xch:featureOf arco:1600389225 ;
+    xch:generatedAt "2026-04-09T12:20:45.562548"^^xsd:dateTime ;
+    xch:generatedBy xch-res:TypologicalAgent ;
+    xch:groundedOn arco:1600389225 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "LLM-extracted architectural feature shared by 16 entities" ;
+    xch:validatedAt "2026-04-09T12:20:45.562548"^^xsd:dateTime ;
+    xch:validatedBy xch-res:TypologicalAgent .
+
+data:stop_path_28c67ea4_1 a xch:PathStop ;
+    rdfs:label "Stop 1: Dolmen Chiancuse" ;
+    prov:used arco:1600389224 ;
+    xch:belongsToPath data:path_28c67ea4 ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "Begin your journey in the heart of the Salento countryside, where the Chiancuse dolmen stands as a silent witness to the ancient funerary traditions of the region." ;
+    xch:generatedAt "2026-04-09T12:21:16.164364"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_28c67ea4_2 ;
+    xch:reasoningTrace "Stop 1 in path path_28c67ea4" ;
+    xch:stopOrder 1 ;
+    xch:stopSite arco:1600389224 ;
+    xch:validatedAt "2026-04-09T12:21:16.164364"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_4e674194_1 a xch:PathStop ;
+    rdfs:label "Stop 1: Dolmen Albarosa" ;
+    prov:used arco:1600389219 ;
+    xch:belongsToPath data:path_4e674194 ;
+    xch:confidenceScore 0.9 ;
+    xch:connectionReason "Start with the Early Bronze Age, examining the grand scale of the Albarosa dolmen, which features a massive tumulus base." ;
+    xch:generatedAt "2026-04-09T12:21:16.164781"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389219 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_4e674194_2 ;
+    xch:reasoningTrace "Stop 1 in path path_4e674194" ;
+    xch:stopOrder 1 ;
+    xch:stopSite arco:1600389219 ;
+    xch:validatedAt "2026-04-09T12:21:16.164781"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_a83be19d_1 a xch:PathStop ;
+    rdfs:label "Stop 1: Dolmen La Chianca" ;
+    prov:used arco:1600389229 ;
+    xch:belongsToPath data:path_a83be19d ;
+    xch:confidenceScore 0.95 ;
+    xch:connectionReason "Explore the complex 'gallery' type architecture of La Chianca, characterized by its elongated entrance corridor." ;
+    xch:generatedAt "2026-04-09T12:21:16.164904"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389229 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_a83be19d_2 ;
+    xch:reasoningTrace "Stop 1 in path path_a83be19d" ;
+    xch:stopOrder 1 ;
+    xch:stopSite arco:1600389229 ;
+    xch:validatedAt "2026-04-09T12:21:16.164904"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_eb6b967f_1 a xch:PathStop ;
+    rdfs:label "Stop 1: Dolmen di Arzoledda" ;
+    prov:used arco:2000053230 ;
+    xch:belongsToPath data:path_eb6b967f ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "Step into the ancient landscape of Luras, where the Arzoledda dolmen marks the beginning of our exploration of Sardinian megalithic history." ;
+    xch:generatedAt "2026-04-09T12:21:16.164650"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:2000053230 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_eb6b967f_2 ;
+    xch:reasoningTrace "Stop 1 in path path_eb6b967f" ;
+    xch:stopOrder 1 ;
+    xch:stopSite arco:2000053230 ;
+    xch:validatedAt "2026-04-09T12:21:16.164650"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:theme_chronological a skos:Concept ;
+    skos:prefLabel "chronological" .
+
+data:theme_typological a skos:Concept ;
+    skos:prefLabel "typological" .
+
+data:stop_path_28c67ea4_2 a xch:PathStop ;
+    rdfs:label "Stop 2: Dolmen Grassi" ;
+    prov:used arco:1600389227 ;
+    xch:belongsToPath data:path_28c67ea4 ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "A short distance away, discover the unique dual-structure of the Grassi dolmen, a rare example of paired megalithic monuments." ;
+    xch:generatedAt "2026-04-09T12:21:16.164426"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389227 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_28c67ea4_3 ;
+    xch:reasoningTrace "Stop 2 in path path_28c67ea4" ;
+    xch:stopOrder 2 ;
+    xch:stopSite arco:1600389227 ;
+    xch:validatedAt "2026-04-09T12:21:16.164426"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_28c67ea4_3 a xch:PathStop ;
+    rdfs:label "Stop 3: I Massi della Vecchia" ;
+    prov:used arco:1600389837 ;
+    xch:belongsToPath data:path_28c67ea4 ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "Explore these massive monoliths that evoke the mystery of Mycenaean-era ritual landscapes in the Salento peninsula." ;
+    xch:generatedAt "2026-04-09T12:21:16.164448"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389837 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_28c67ea4_4 ;
+    xch:reasoningTrace "Stop 3 in path path_28c67ea4" ;
+    xch:stopOrder 3 ;
+    xch:stopSite arco:1600389837 ;
+    xch:validatedAt "2026-04-09T12:21:16.164448"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_28c67ea4_4 a xch:PathStop ;
+    rdfs:label "Stop 4: Dolmen Stabile" ;
+    prov:used arco:1600389233 ;
+    xch:belongsToPath data:path_28c67ea4 ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "Conclude your visit at the Stabile dolmen, a classic example of the Middle Bronze Age funerary architecture that defines this cluster." ;
+    xch:generatedAt "2026-04-09T12:21:16.164464"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389233 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Stop 4 in path path_28c67ea4" ;
+    xch:stopOrder 4 ;
+    xch:stopSite arco:1600389233 ;
+    xch:validatedAt "2026-04-09T12:21:16.164464"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_4e674194_2 a xch:PathStop ;
+    rdfs:label "Stop 2: Dolmen Canali" ;
+    prov:used arco:1600389221 ;
+    xch:belongsToPath data:path_4e674194 ;
+    xch:confidenceScore 0.9 ;
+    xch:connectionReason "Observe the evolution of construction techniques in the Early Bronze Age at the Canali site, notable for its monolithic orthostats." ;
+    xch:generatedAt "2026-04-09T12:21:16.164793"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389221 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_4e674194_3 ;
+    xch:reasoningTrace "Stop 2 in path path_4e674194" ;
+    xch:stopOrder 2 ;
+    xch:stopSite arco:1600389221 ;
+    xch:validatedAt "2026-04-09T12:21:16.164793"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_4e674194_3 a xch:PathStop ;
+    rdfs:label "Stop 3: Dolmen Grotta" ;
+    prov:used arco:1600389228 ;
+    xch:belongsToPath data:path_4e674194 ;
+    xch:confidenceScore 0.9 ;
+    xch:connectionReason "Transition to the Middle Bronze Age, where sites like Grotta show the consolidation of funerary practices in the Salento region." ;
+    xch:generatedAt "2026-04-09T12:21:16.164804"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389228 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_4e674194_4 ;
+    xch:reasoningTrace "Stop 3 in path path_4e674194" ;
+    xch:stopOrder 3 ;
+    xch:stopSite arco:1600389228 ;
+    xch:validatedAt "2026-04-09T12:21:16.164804"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_4e674194_4 a xch:PathStop ;
+    rdfs:label "Stop 4: Dolmen San Silvestro" ;
+    prov:used arco:1600389231 ;
+    xch:belongsToPath data:path_4e674194 ;
+    xch:confidenceScore 0.9 ;
+    xch:connectionReason "Conclude with the San Silvestro dolmen, illustrating the later Middle Bronze Age period and the transition of these sites from burial mounds to recognized monuments." ;
+    xch:generatedAt "2026-04-09T12:21:16.164814"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389231 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Stop 4 in path path_4e674194" ;
+    xch:stopOrder 4 ;
+    xch:stopSite arco:1600389231 ;
+    xch:validatedAt "2026-04-09T12:21:16.164814"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_a83be19d_2 a xch:PathStop ;
+    rdfs:label "Stop 2: Dolmen Piccoli" ;
+    prov:used arco:1600389188 ;
+    xch:belongsToPath data:path_a83be19d ;
+    xch:confidenceScore 0.95 ;
+    xch:connectionReason "Compare the gallery design with the Piccoli dolmen, which displays a distinct structural layout of orthostats and closure slabs." ;
+    xch:generatedAt "2026-04-09T12:21:16.164920"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389188 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_a83be19d_3 ;
+    xch:reasoningTrace "Stop 2 in path path_a83be19d" ;
+    xch:stopOrder 2 ;
+    xch:stopSite arco:1600389188 ;
+    xch:validatedAt "2026-04-09T12:21:16.164920"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_a83be19d_3 a xch:PathStop ;
+    rdfs:label "Stop 3: Dolmen Li Scusi" ;
+    prov:used arco:1600389236 ;
+    xch:belongsToPath data:path_a83be19d ;
+    xch:confidenceScore 0.95 ;
+    xch:connectionReason "Shift focus to the 'single-chamber' typology at Li Scusi, a classic example of the simple, non-articulated funerary cell." ;
+    xch:generatedAt "2026-04-09T12:21:16.164932"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389236 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_a83be19d_4 ;
+    xch:reasoningTrace "Stop 3 in path path_a83be19d" ;
+    xch:stopOrder 3 ;
+    xch:stopSite arco:1600389236 ;
+    xch:validatedAt "2026-04-09T12:21:16.164932"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_a83be19d_4 a xch:PathStop ;
+    rdfs:label "Stop 4: Dolmen Placa" ;
+    prov:used arco:1600389234 ;
+    xch:belongsToPath data:path_a83be19d ;
+    xch:confidenceScore 0.95 ;
+    xch:connectionReason "Examine the Placa dolmen, another prime example of the single-chamber design, showcasing the minimalist beauty of the Salento megalithic tradition." ;
+    xch:generatedAt "2026-04-09T12:21:16.164943"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389234 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Stop 4 in path path_a83be19d" ;
+    xch:stopOrder 4 ;
+    xch:stopSite arco:1600389234 ;
+    xch:validatedAt "2026-04-09T12:21:16.164943"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_eb6b967f_2 a xch:PathStop ;
+    rdfs:label "Stop 2: Dolmen di Bilella" ;
+    prov:used arco:2000053224 ;
+    xch:belongsToPath data:path_eb6b967f ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "Continue through the Luras countryside to the Bilella site, reflecting the localized megalithic tradition of the Sardinian interior." ;
+    xch:generatedAt "2026-04-09T12:21:16.164666"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:2000053224 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_eb6b967f_3 ;
+    xch:reasoningTrace "Stop 2 in path path_eb6b967f" ;
+    xch:stopOrder 2 ;
+    xch:stopSite arco:2000053224 ;
+    xch:validatedAt "2026-04-09T12:21:16.164666"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_eb6b967f_3 a xch:PathStop ;
+    rdfs:label "Stop 3: Dolmen di Ciuledda" ;
+    prov:used arco:2000053213 ;
+    xch:belongsToPath data:path_eb6b967f ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "Observe the structural similarities of the Ciuledda dolmen, which shares the same prehistoric context as its neighbors." ;
+    xch:generatedAt "2026-04-09T12:21:16.164677"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:2000053213 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:nextStop data:stop_path_eb6b967f_4 ;
+    xch:reasoningTrace "Stop 3 in path path_eb6b967f" ;
+    xch:stopOrder 3 ;
+    xch:stopSite arco:2000053213 ;
+    xch:validatedAt "2026-04-09T12:21:16.164677"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:stop_path_eb6b967f_4 a xch:PathStop ;
+    rdfs:label "Stop 4: Dolmen di Ladas" ;
+    prov:used arco:2000053211 ;
+    xch:belongsToPath data:path_eb6b967f ;
+    xch:confidenceScore 1.0 ;
+    xch:connectionReason "End your journey at the Ladas dolmen, completing this circuit of highly concentrated megalithic sites in the Luras municipality." ;
+    xch:generatedAt "2026-04-09T12:21:16.164688"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:2000053211 ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:reasoningTrace "Stop 4 in path path_eb6b967f" ;
+    xch:stopOrder 4 ;
+    xch:stopSite arco:2000053211 ;
+    xch:validatedAt "2026-04-09T12:21:16.164688"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:theme_geographic a skos:Concept ;
+    skos:prefLabel "geographic" .
+
+data:path_28c67ea4 a xch:GeographicPath,
+        xch:ThematicPath ;
+    rdfs:label "The Megalithic Heart of Salento" ;
+    dc:description "This path explores the dense megalithic concentration of the Salento peninsula, focusing on the ritual landscape shared by the communities of Giurdignano and Giuggianello." ;
+    prov:used arco:1600389224,
+        arco:1600389227,
+        arco:1600389233,
+        arco:1600389837 ;
+    xch:confidenceScore 1.0 ;
+    xch:difficulty "easy" ;
+    xch:estimatedDuration "PT2H30M"^^xsd:duration ;
+    xch:generatedAt "2026-04-09T12:21:16.164321"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389224,
+        arco:1600389227,
+        arco:1600389233,
+        arco:1600389837 ;
+    xch:hasStop data:stop_path_28c67ea4_1,
+        data:stop_path_28c67ea4_2,
+        data:stop_path_28c67ea4_3,
+        data:stop_path_28c67ea4_4 ;
+    xch:hasTheme data:theme_geographic ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:narrative "This path explores the dense megalithic concentration of the Salento peninsula, focusing on the ritual landscape shared by the communities of Giurdignano and Giuggianello." ;
+    xch:pathLength 4 ;
+    xch:reasoningTrace "LLM proposed path. Validation score: 0.86" ;
+    xch:validatedAt "2026-04-09T12:21:16.164321"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:path_4e674194 a xch:ChronologicalPath,
+        xch:ThematicPath ;
+    rdfs:label "Evolution of the Bronze Age Dolmen" ;
+    dc:description "This path traces the progression of funerary architecture from the Early to the Middle Bronze Age, highlighting how construction techniques and site usage evolved over centuries." ;
+    prov:used arco:1600389219,
+        arco:1600389221,
+        arco:1600389228,
+        arco:1600389231 ;
+    xch:confidenceScore 0.9 ;
+    xch:difficulty "medium" ;
+    xch:estimatedDuration "PT2H30M"^^xsd:duration ;
+    xch:generatedAt "2026-04-09T12:21:16.164769"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389219,
+        arco:1600389221,
+        arco:1600389228,
+        arco:1600389231 ;
+    xch:hasStop data:stop_path_4e674194_1,
+        data:stop_path_4e674194_2,
+        data:stop_path_4e674194_3,
+        data:stop_path_4e674194_4 ;
+    xch:hasTheme data:theme_chronological ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:narrative "This path traces the progression of funerary architecture from the Early to the Middle Bronze Age, highlighting how construction techniques and site usage evolved over centuries." ;
+    xch:pathLength 4 ;
+    xch:reasoningTrace "LLM proposed path. Validation score: 0.88" ;
+    xch:validatedAt "2026-04-09T12:21:16.164769"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:path_a83be19d a xch:ThematicPath,
+        xch:TypologicalPath ;
+    rdfs:label "Architectural Mastery: Gallery vs. Single-Chamber" ;
+    dc:description "A comparative architectural study of megalithic structures, contrasting the sophisticated gallery dolmens with the simpler, yet equally significant, single-chamber cells." ;
+    prov:used arco:1600389188,
+        arco:1600389229,
+        arco:1600389234,
+        arco:1600389236 ;
+    xch:confidenceScore 0.95 ;
+    xch:difficulty "medium" ;
+    xch:estimatedDuration "PT2H15M"^^xsd:duration ;
+    xch:generatedAt "2026-04-09T12:21:16.164892"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:1600389188,
+        arco:1600389229,
+        arco:1600389234,
+        arco:1600389236 ;
+    xch:hasStop data:stop_path_a83be19d_1,
+        data:stop_path_a83be19d_2,
+        data:stop_path_a83be19d_3,
+        data:stop_path_a83be19d_4 ;
+    xch:hasTheme data:theme_typological ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:narrative "A comparative architectural study of megalithic structures, contrasting the sophisticated gallery dolmens with the simpler, yet equally significant, single-chamber cells." ;
+    xch:pathLength 4 ;
+    xch:reasoningTrace "LLM proposed path. Validation score: 0.88" ;
+    xch:validatedAt "2026-04-09T12:21:16.164892"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+data:path_eb6b967f a xch:GeographicPath,
+        xch:ThematicPath ;
+    rdfs:label "Sardinian Megalithic Traditions" ;
+    dc:description "A journey through the Luras municipality in Sardinia, uncovering the dense concentration of prehistoric dolmens that define this unique megalithic territory." ;
+    prov:used arco:2000053211,
+        arco:2000053213,
+        arco:2000053224,
+        arco:2000053230 ;
+    xch:confidenceScore 1.0 ;
+    xch:difficulty "easy" ;
+    xch:estimatedDuration "PT2H"^^xsd:duration ;
+    xch:generatedAt "2026-04-09T12:21:16.164632"^^xsd:dateTime ;
+    xch:generatedBy xch-res:NarrativeAgent ;
+    xch:groundedOn arco:2000053211,
+        arco:2000053213,
+        arco:2000053224,
+        arco:2000053230 ;
+    xch:hasStop data:stop_path_eb6b967f_1,
+        data:stop_path_eb6b967f_2,
+        data:stop_path_eb6b967f_3,
+        data:stop_path_eb6b967f_4 ;
+    xch:hasTheme data:theme_geographic ;
+    xch:hasValidationStatus xch:Validated ;
+    xch:narrative "A journey through the Luras municipality in Sardinia, uncovering the dense concentration of prehistoric dolmens that define this unique megalithic territory." ;
+    xch:pathLength 4 ;
+    xch:reasoningTrace "LLM proposed path. Validation score: 1.00" ;
+    xch:validatedAt "2026-04-09T12:21:16.164632"^^xsd:dateTime ;
+    xch:validatedBy xch-res:NarrativeAgent .
+
+arco:2000237910 xch:nearTo arco:2000237909 ;
+    xch:relatesTo arco:2000237909 .
+
+arco:2000238023 xch:nearTo arco:2000238022 ;
+    xch:relatesTo arco:2000238022 .
+
+arco:2000237971 xch:contemporaryWith arco:2000053230 ;
+    xch:relatesTo arco:2000053230 .
+
+arco:0700263600 xch:hasFeature data:feature_615de172,
+        data:feature_9060e95e,
+        data:feature_a1d4708e .
+
+arco:1600389240 xch:hasFeature data:feature_4bcaa03a,
+        data:feature_862062dc,
+        data:feature_bebcc8f7,
+        data:feature_df5ebf7c .
+
+arco:2000241278 xch:hasFeature data:feature_5a3ccb49,
+        data:feature_8ae9b7ef,
+        data:feature_de871f95,
+        data:feature_e87c9308 .
+
+arco:2000053230 xch:contemporaryWith arco:2000237971 ;
+    xch:relatesTo arco:2000237971 .
+
+arco:1600389237 xch:hasFeature data:feature_1df10058,
+        data:feature_39c5bc57,
+        data:feature_cdb312ff,
+        data:feature_d546d6f2,
+        data:feature_daaf95eb,
+        data:feature_f083afe8 .
+
+arco:1600389238 xch:hasFeature data:feature_0703134c,
+        data:feature_155d4a7e,
+        data:feature_734765ba,
+        data:feature_7ad93773,
+        data:feature_bc0676e8,
+        data:feature_be451c29 .
+
+arco:1600389837 xch:hasFeature data:feature_1a747cf0,
+        data:feature_36653a8b,
+        data:feature_811c3bbc,
+        data:feature_b5bef723 .
+
+arco:1600389225 xch:hasFeature data:feature_00a64c5e,
+        data:feature_389e6311,
+        data:feature_5109b5d6,
+        data:feature_792d65cc,
+        data:feature_82c6df02,
+        data:feature_95cd3b47,
+        data:feature_ffaa4f71 .
+
+arco:1600389226 xch:hasFeature data:feature_0d27435b,
+        data:feature_24b7bb18,
+        data:feature_51959332,
+        data:feature_65c4443a,
+        data:feature_b467c50e,
+        data:feature_f7bad38e .
+
+arco:1600389230 xch:hasFeature data:feature_1cb248a5,
+        data:feature_1e1f95e7,
+        data:feature_40ea31ac,
+        data:feature_5651c403,
+        data:feature_b47b2548,
+        data:feature_bebd78ee .
+
+arco:1600389232 xch:hasFeature data:feature_0a2ce351,
+        data:feature_1d141ce5,
+        data:feature_21ce007f,
+        data:feature_9185cf5e,
+        data:feature_ab31a24f,
+        data:feature_d6982d84,
+        data:feature_d8cbb1bb .
+
+arco:1600389220 xch:contemporaryWith arco:1600389219 ;
+    xch:hasFeature data:feature_06b97793,
+        data:feature_2d12598b,
+        data:feature_af1aca2b,
+        data:feature_e0d34d88,
+        data:feature_eb5697fa ;
+    xch:relatesTo arco:1600389219 .
+
+arco:1600389235 xch:hasFeature data:feature_068601fb,
+        data:feature_5c15a34b,
+        data:feature_637fceb9,
+        data:feature_65813d36,
+        data:feature_e78a8ced,
+        data:feature_f895a454,
+        data:feature_fa106f46 .
+
+arco:1600389188 xch:hasFeature data:feature_1b5efbbd,
+        data:feature_2c6525ec,
+        data:feature_956a29ae,
+        data:feature_9b437782,
+        data:feature_e3213034,
+        data:feature_f377bd90 .
+
+arco:1600389231 xch:hasFeature data:feature_87162d98,
+        data:feature_93e36d72,
+        data:feature_9e50b0cf,
+        data:feature_b0d3e55a,
+        data:feature_b20c0d74,
+        data:feature_efab1704 .
+
+arco:1600389222 xch:hasFeature data:feature_022daa30,
+        data:feature_1697c059,
+        data:feature_79c4402e,
+        data:feature_9646eb73,
+        data:feature_df7434b0,
+        data:feature_e32109f5 ;
+    xch:nearTo arco:1600389223 ;
+    xch:relatesTo arco:1600389223 .
+
+arco:1600389223 xch:hasFeature data:feature_010d6bed,
+        data:feature_1256f008,
+        data:feature_20ceafe8,
+        data:feature_376ac126,
+        data:feature_d0553f39,
+        data:feature_ed089721 .
+
+arco:1600389236 xch:hasFeature data:feature_24538884,
+        data:feature_478c5f0f,
+        data:feature_56c121bc,
+        data:feature_8b68c324,
+        data:feature_9d7f9b33,
+        data:feature_e8b474b6,
+        data:feature_f6f12332 .
+
+arco:1600389228 xch:contemporaryWith arco:1600389233 ;
+    xch:hasFeature data:feature_044287f6,
+        data:feature_30724c84,
+        data:feature_78dd4dfc,
+        data:feature_9949bad2,
+        data:feature_cb0461a0,
+        data:feature_ce8378e8 ;
+    xch:relatesTo arco:1600389233 .
+
+arco:1600389221 xch:hasFeature data:feature_01402e9d,
+        data:feature_07038b77,
+        data:feature_2b4a1a36,
+        data:feature_32d74543,
+        data:feature_3644af02,
+        data:feature_46a443e3,
+        data:feature_5e9586c6,
+        data:feature_ff0548dc .
+
+arco:1600389224 xch:hasFeature data:feature_0ade6a8d,
+        data:feature_0d88927c,
+        data:feature_90e26060,
+        data:feature_9f78ce15,
+        data:feature_aa6e5ba8,
+        data:feature_ebbe8d2a,
+        data:feature_ed125f48 ;
+    xch:nearTo arco:1600389227 ;
+    xch:relatesTo arco:1600389227 .
+
+arco:1600389229 xch:hasFeature data:feature_69d6b000,
+        data:feature_785db385,
+        data:feature_8cd42269,
+        data:feature_9853f86b,
+        data:feature_d085a8cd,
+        data:feature_f2f9f0b0 .
+
+arco:1600389234 xch:hasFeature data:feature_1a6da812,
+        data:feature_39f69403,
+        data:feature_5ef8ed6b,
+        data:feature_611b215e,
+        data:feature_83db80c1,
+        data:feature_ae421f4a,
+        data:feature_c6dab147,
+        data:feature_f1fa6ad3 ;
+    xch:relatesTo arco:1600389233 ;
+    xch:similarTo arco:1600389233 .
+
+arco:1600389227 xch:hasFeature data:feature_340e8240,
+        data:feature_8fba02b5,
+        data:feature_aaa88ff9,
+        data:feature_b71c0142,
+        data:feature_e53aefc4,
+        data:feature_ec6cface,
+        data:feature_eef2daff,
+        data:feature_ff049046 .
+
+arco:1600389219 xch:contemporaryWith arco:1600389220 ;
+    xch:hasFeature data:feature_0cf402ce,
+        data:feature_150ba491,
+        data:feature_1bf3a3b6,
+        data:feature_322d5111,
+        data:feature_57f5b7f6,
+        data:feature_786ff430 ;
+    xch:relatesTo arco:1600389220,
+        arco:1600389229 ;
+    xch:similarTo arco:1600389229 .
+
+arco:1600389233 xch:contemporaryWith arco:1600389228 ;
+    xch:hasFeature data:feature_2e283fe5,
+        data:feature_4109705e,
+        data:feature_43746096,
+        data:feature_88d3c63c,
+        data:feature_aaa6dd26,
+        data:feature_eeb13882,
+        data:feature_f49ca84e ;
+    xch:relatesTo arco:1600389228 .
+

@@ -1,0 +1,72 @@
+{
+  "timing": {
+    "started_at": "2026-04-09T12:19:37.859881",
+    "completed_at": "2026-04-09T12:21:16.700229",
+    "duration_seconds": 98.84
+  },
+  "entities": {
+    "loaded": 53,
+    "processed": 53,
+    "failed": [],
+    "filtered": {}
+  },
+  "assertions": {
+    "total": 194,
+    "by_type": {
+      "geographic_cluster": 7,
+      "near_to": 4,
+      "chronological_cluster": 3,
+      "contemporary_with": 3,
+      "typological_cluster": 3,
+      "similar_to": 2,
+      "extracted_feature": 152,
+      "thematic_path": 4,
+      "path_stop": 16
+    }
+  },
+  "triples": {
+    "total": 3258
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 0,
+    "error_details": [],
+    "warning_details": []
+  },
+  "output": {
+    "files": [
+      "output_ablation_noval/xch_run_20260409_121937/xch_output_20260409_121937.ttl"
+    ]
+  },
+  "novelty_filtering": {
+    "geo_analyzer": {
+      "proposed": 11,
+      "novel": 11,
+      "filtered_as_duplicates": 0
+    },
+    "temporal_analyzer": {
+      "proposed": 6,
+      "novel": 6,
+      "filtered_as_duplicates": 0
+    },
+    "type_analyzer": {
+      "proposed": 157,
+      "novel": 157,
+      "filtered_as_duplicates": 0
+    },
+    "path_generator": {
+      "proposed": 20,
+      "novel": 20,
+      "filtered_as_duplicates": 0
+    }
+  },
+  "stats": {
+    "llm_calls": 4,
+    "rate_limit_waits": 0
+  },
+  "run_info": {
+    "run_directory": "output_ablation_noval/xch_run_20260409_121937",
+    "provider": "gemini",
+    "model": "gemini-2.5-flash"
+  }
+}

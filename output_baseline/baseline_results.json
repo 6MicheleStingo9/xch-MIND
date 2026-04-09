@@ -1,0 +1,203 @@
+{
+  "model": "gemini-2.5-flash",
+  "duration_seconds": 5.38,
+  "llm_calls": 1,
+  "prompt_chars": 24381,
+  "clusters": {
+    "total": 6,
+    "by_type": {
+      "geographic": 3,
+      "chronological": 2,
+      "typological": 1
+    },
+    "mean_confidence": 0.9083333333333333
+  },
+  "relations": {
+    "total": 4,
+    "by_type": {
+      "nearTo": 2,
+      "similarTo": 1,
+      "contemporaryWith": 1
+    },
+    "mean_confidence": 0.8875
+  },
+  "paths": {
+    "total": 2,
+    "total_stops": 9,
+    "mean_confidence": 0.875
+  },
+  "overall": {
+    "total_assertions": 21,
+    "mean_confidence": 0.8958333333333334,
+    "min_confidence": 0.8,
+    "max_confidence": 1.0,
+    "validated_pct": 100.0
+  },
+  "raw_response": {
+    "clusters": [
+      {
+        "cluster_type": "geographic",
+        "label": "Salento Megalithic Group",
+        "member_names": [
+          "Dolmen Argentina",
+          "Dolmen Canali",
+          "Dolmen Caroppo 1",
+          "Dolmen Caroppo 2",
+          "Dolmen Chiancuse",
+          "Dolmen Cosi",
+          "Dolmen Grassi",
+          "Dolmen Grotta",
+          "Dolmen Gurgulante",
+          "Dolmen Li Scusi",
+          "Dolmen Piedi Grandi",
+          "Dolmen Placa",
+          "Dolmen Stabile",
+          "Dolmen Torre Ospina"
+        ],
+        "reasoning": "These sites are all located within the Puglia region, specifically in the Salento area, sharing similar environmental and cultural contexts.",
+        "confidence": 0.95
+      },
+      {
+        "cluster_type": "geographic",
+        "label": "Bisceglie Megalithic Group",
+        "member_names": [
+          "Dolmen Albarosa",
+          "dolmen",
+          "Dolmen La Chianca"
+        ],
+        "reasoning": "These sites are all located in the municipality of Bisceglie, Puglia, and share a common territorial context.",
+        "confidence": 0.9
+      },
+      {
+        "cluster_type": "geographic",
+        "label": "Buddusò Megalithic Group",
+        "member_names": [
+          "Dolmen di Elcomis",
+          "Dolmen di Oronita",
+          "Dolmen di Sa Janna de Su Laccu",
+          "Dolmen di Sos Monumentos"
+        ],
+        "reasoning": "These sites are all located in the municipality of Buddusò, Sardinia.",
+        "confidence": 0.9
+      },
+      {
+        "cluster_type": "chronological",
+        "label": "Bronze Age Salento",
+        "member_names": [
+          "Dolmen Argentina",
+          "Dolmen Canali",
+          "Dolmen Caroppo 1",
+          "Dolmen Caroppo 2",
+          "Dolmen Grassi",
+          "Dolmen Grotta",
+          "Dolmen Gurgulante",
+          "Dolmen Li Scusi",
+          "Dolmen Placa",
+          "Dolmen Stabile",
+          "Dolmen Torre Ospina"
+        ],
+        "reasoning": "These sites are explicitly dated to the Bronze Age, representing a consistent cultural phase in the Salento region.",
+        "confidence": 0.9
+      },
+      {
+        "cluster_type": "chronological",
+        "label": "Sardinian V-III Millennium BC",
+        "member_names": [
+          "Dolmen di Aeddo",
+          "Dolmen di Arzoledda",
+          "Dolmen di Bilella",
+          "Dolmen di Ciuledda",
+          "Dolmen di Corrizzola",
+          "Dolmen I di Arbu",
+          "Dolmen di Ladas",
+          "Dolmen 1 di Matta Larentu",
+          "Dolmen 2 di Matta Larentu",
+          "Dolmen 6 di Matta Larentu",
+          "Dolmen di Monte Longu",
+          "Dolmen di Montiju Coronas",
+          "Dolmen di Motorra",
+          "Dolmen di Muttianu",
+          "Dolmen A di Nela",
+          "Dolmen di Noazza",
+          "Dolmen di Paule Rues",
+          "Dolmen di Sarbogadas",
+          "Dolmen di Serrese",
+          "Dolmen di Su Crastu Covaccadu",
+          "Dolmen di Terra Tenera"
+        ],
+        "reasoning": "These sites are consistently dated to the V-III millennium BC cal, representing the early megalithic tradition in Sardinia.",
+        "confidence": 0.95
+      },
+      {
+        "cluster_type": "typological",
+        "label": "Salento Single-Cell Dolmens",
+        "member_names": [
+          "Dolmen Li Scusi",
+          "Dolmen Gurgulante",
+          "Dolmen Stabile",
+          "Dolmen Placa"
+        ],
+        "reasoning": "These sites are described as having a single-cell structure, typical of the Salento megalithic tradition.",
+        "confidence": 0.85
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "nearTo",
+        "source_name": "Dolmen Caroppo 1",
+        "target_name": "Dolmen Caroppo 2",
+        "reasoning": "The data explicitly states they are located a few meters apart.",
+        "confidence": 1.0
+      },
+      {
+        "relation_type": "nearTo",
+        "source_name": "Dolmen Chiancuse",
+        "target_name": "Dolmen Grassi",
+        "reasoning": "Both are located in the municipality of Giurdignano and are geographically proximate.",
+        "confidence": 0.8
+      },
+      {
+        "relation_type": "similarTo",
+        "source_name": "Dolmen Caroppo 2",
+        "target_name": "Dolmen Li Scusi",
+        "reasoning": "Both are identified as typical Salento dolmens with less articulated plans compared to central Puglia.",
+        "confidence": 0.85
+      },
+      {
+        "relation_type": "contemporaryWith",
+        "source_name": "Dolmen Albarosa",
+        "target_name": "Dolmen Argentina",
+        "reasoning": "Both are dated to the Early Bronze Age.",
+        "confidence": 0.9
+      }
+    ],
+    "paths": [
+      {
+        "title": "The Salento Megalithic Trail",
+        "theme": "Bronze Age Funerary Architecture",
+        "stops": [
+          "Dolmen Argentina",
+          "Dolmen Canali",
+          "Dolmen Caroppo 1",
+          "Dolmen Caroppo 2",
+          "Dolmen Li Scusi"
+        ],
+        "narrative": "A journey through the heart of Salento to explore the evolution of Bronze Age funerary monuments, focusing on the transition from simple single-cell structures to more complex arrangements.",
+        "confidence": 0.9
+      },
+      {
+        "title": "Sardinian Ancient Landscapes",
+        "theme": "Prehistoric Megalithism",
+        "stops": [
+          "Dolmen di Aeddo",
+          "Dolmen di Terra Tenera",
+          "Dolmen di Muttianu",
+          "Dolmen di Sarbogadas"
+        ],
+        "narrative": "An exploration of the oldest megalithic structures in Sardinia, dating back to the V-III millennium BC, highlighting the deep roots of the island's prehistoric culture.",
+        "confidence": 0.85
+      }
+    ],
+    "overall_observations": "The collection reveals a clear dichotomy between the Bronze Age megalithic traditions of the Salento peninsula (Puglia), characterized by single-cell funerary structures, and the older V-III millennium BC megalithic tradition of Sardinia. The Salento sites show a high degree of typological homogeneity, while the Sardinian sites are more dispersed across various municipalities, reflecting a widespread and long-standing megalithic culture."
+  }
+}

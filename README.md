@@ -141,6 +141,12 @@ xch-MIND/
 │       └── xch-core.ttl            # xch-MIND interpretive ontology
 ├── output/                         # Generated knowledge graphs (TTL, JSON-LD)
 ├── scripts/                        # Utility scripts
+│   ├── analyze_cache.py            # Geographic data completeness report
+│   ├── check_models.py             # List available LLM models
+│   ├── test_logging.py             # Verify colored logging system
+│   ├── compute_metrics.py          # Quantitative metrics for paper evaluation
+│   ├── baseline_single_prompt.py   # Single-prompt baseline comparison
+│   └── ablation_comparison.py      # No-validation ablation comparison
 ├── src/
 │   ├── agents/                     # Multi-agent system
 │   │   ├── base.py                # BaseAgent abstract class
@@ -301,6 +307,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 If you use this system in your research, please cite:
 
+**Conference paper:**
+```bibtex
+@inproceedings{stingo2026xchmind,
+  title     = {xch-MIND: Multi-Agent Interpretive Knowledge Graph Augmentation over Cultural Heritage Linked Data},
+  author    = {Stingo, Michele},
+  booktitle = {Proceedings of the 5th Workshop on LLM-Integrated Knowledge Graph Generation from Text (TEXT2KG) at ESWC 2026},
+  year      = {2026},
+  address   = {Dubrovnik, Croatia},
+  month     = {May}
+}
+```
+
+**Software:**
 ```bibtex
 @software{xch-mind2026,
   title = {xch-MIND: Multi-Agent Interpretive Knowledge Graph Augmentation over Cultural Heritage Linked Data},
